@@ -1,235 +1,214 @@
-species,mean_brain,diet_category,per_fruit,mean_groupsize,social_system,mating_system,tool_type,body_weight,infraorder,superfamily,family,prey,prey_order,prey_family
-allenopithecus_nigriviridis,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,teleostei,NA,NA
-allenopithecus_nigroviridis,61.19674101333334,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-alouatta_caraya,50.1395191682517,Fol,25,7.025,polygynandry,harem polygyny,NA,5596.653333333333,haplorrhini,simmiformes,atelidae,aves,galliformes,Phasianidae
-alouatta_guariba,53.947547164276756,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-alouatta_palliata,51.93576968963947,Fol,42,14.509782608695652,polygynandry,harem polygyny,NA,6358.996666666666,haplorrhini,simmiformes,atelidae,aves,NA,NA
-alouatta_pigra,52.9655,Fol,NA,5.933333333333334,polygynandry,harem polygyny,NA,8940,NA,NA,NA,NA,NA,NA
-alouatta_seniculus,48.156329662209465,Fol,42,7.446428571428571,polygynandry,harem polygyny,Anecdotal evidence of a free individual using tools to be aggressive towards another,6247.359743589744,haplorrhini,simmiformes,atelidae,squamata,squamata,Iguanidae
-alouatta_sp.,35.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-aotus_azarai,21.412652333333334,Frug/Fol,NA,3,pair,monogamy,NA,1073.19,NA,NA,NA,NA,NA,NA
-aotus_lemurinus,NA,Frug,NA,3.5,pair,monogamy,NA,869.98,NA,NA,NA,NA,NA,NA
-aotus_sp.,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-aotus_trivirgatus,16.91290451167079,Frug,45.5,3.705,pair,monogamy,NA,870.8000000000001,NA,NA,NA,NA,NA,NA
-arctocebus_calabarensis,7.170563430191403,Om,NA,1.25,solitary,spatial polygyny,NA,239.33666666666667,NA,NA,NA,NA,NA,NA
-arctocebus_sp.,7.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-ateles_belzebuth,108.0379368648439,Frug/Fol,83,16.666666666666668,polygynandry,polygynandry,NA,6409.139999999999,NA,NA,NA,NA,NA,NA
-ateles_fusciceps,98.05051168888889,Frug,NA,5,polygynandry,polygynandry,NA,8033.97,NA,NA,NA,NA,NA,NA
-ateles_geoffroyi,99.18426686231015,Frug,68.7,27.485294117647058,polygynandry,polygynandry,Multiple recorded observations of free individuals using tools for physical maintenance,6711.8,NA,NA,NA,NA,NA,NA
-ateles_paniscus,110.93825,Frug,82.9,22.5,polygynandry,polygynandry,NA,7789.5277777777765,NA,NA,NA,NA,NA,NA
-ateles_sp.,110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-avahi_laniger,10.353631625,Fol,0,2.6666666666666665,pair,monogamy,NA,1300,NA,NA,NA,NA,NA,NA
-avahi_occidentalis,8.9531,Fol,NA,NA,pair,monogamy,NA,795.5,NA,NA,NA,NA,NA,NA
-brachyteles_arachnoides,NA,Frug/Fol,NA,26.928571428571427,polygynandry,polygynandry,NA,9247.5,NA,NA,NA,NA,NA,NA
-brown_capuchin_(sapajus_apella,NA,NA,NA,NA,NA,NA,"Extensive observations of tool use including: captive, free, and semi free individuals extracting food with tools, captive individuals transporting food with a tool, and captive individuals to be aggressive towards another",NA,NA,NA,NA,NA,NA,NA
-cacajao_calvus,NA,Frug,18,15,polygynandry,harem polygyny,NA,3293.02,haplorrhini,simmiformes,pitheciidae,squamata,squamata,NA
-cacajao_melanocephala,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,amphibia,anura,NA
-cacajao_ouakary,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,squamata,chelonidae,NA
-callicebus_coimbrai,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,aves,passeriformes,Turdidae
-callicebus_moloch,17.725,Frug,53.7,3.3464285714285715,pair,monogamy,NA,883.805238095238,NA,NA,NA,NA,NA,NA
-callicebus_personatus,NA,NA,NA,3.45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-callicebus_torquatus,20.55927496,Frug,33,3.66,pair,monogamy,NA,1152.5,NA,NA,NA,NA,NA,NA
-callimico_goeldii,11.882625833333334,Om,NA,6.5,pair,monogamy,NA,538.5,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA
-callithrix_argentata,7.911912726181819,Om,NA,6.199999999999999,pair,monogamy,NA,361.1233333333334,NA,NA,NA,NA,NA,NA
-callithrix_aurita,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,aves,NA,NA
-callithrix_flaviceps,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA
-callithrix_geoffroyi,8.642857142857142,Om,NA,9,pair,monogamy,NA,342,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata",NA
-callithrix_humeralifer,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, passeriformes, NA","NA, Thamnophilidae, Thraupidae"
-callithrix_humeralifera,8.495199999999999,NA,NA,11.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-callithrix_jacchus,7.7974721044,Frug,22,7.992857142857143,pair,polyandry,NA,272.705,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves, mammalia","anura, squamata, apodiformes, caprimuligiformes, colombiformes, passeriformes, NA, didelphimorphia, rodentia","Hylidae, NA, Gekkonidae, Trochilidae, Capromulgidae, Columbidae, Cotingidae, Thamnophilidae, Thraupidae, Turdidae, Tyrannidae, Didelphidae, Echimyidae"
-callithrix_kuhli,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA
-callithrix_penicillata,7.524037040531802,Om,NA,6.6,pair,monogamy,NA,323.49,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves, mammalia","anura, NA, passeriformes, didelphimorphia, rodentia","Hylidae, NA, Columbidae, Icteridae, Didelphidae, Muridae"
-callithrix_pygmaea,4.5393400040000005,Om,0,5.47,pair,polyandry,NA,125.81333333333333,NA,NA,NA,NA,NA,NA
-cebuella_pygmaea,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata","Aromabatidae, Dactyloidea, Tropiduridae"
-cebus_albifrons,64.00796618102846,Om,24.6,19.083333333333332,polygynandry,polygynandry,Multiple recorded observations of free individuals using tools for food transportation,2535.56,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, passeriformes, rodentia, didelphimorphia","NA, Icteridae, Muridae, Didelphidae"
-cebus_apella,71.62318093867096,Om,36,11.471428571428572,polygynandry,polygynandry,NA,2669.21,NA,NA,NA,NA,NA,NA
-cebus_capucinus,65.12525086628662,Om,67.5,17.38888888888889,polygynandry,harem polygyny,"Multiple accounts of free individuals using tools to extract food, maintain their physical self, defend against predation, and to be aggressive towards another",2798.107777777777,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, NA, columbiformes, cuculiformes, galliformes, passeriformes, psittaciformes, tinaniformes, trogoniformes, unspecified, carnivora, chiroptera, rodentia","NA, Iguanidae, Anolidae, Columbidae, Cuculidae, Cracidae, Corvidae, Troglodytidae, Psittacidae, Tinanidae, Trogonidae, Procyanidae, Sciuridae, Echimyidae"
-cebus_cay,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,"aves, mammalia","passeriformes, pelicaniformes, rodentia","Furnariidae, Threskiornithidae, Cricetidae"
-cebus_nigritus,52.65,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cebus_olivaceous,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, columbiformes, cuculiformes, galliformes, gruiformes, opisthocomiformes, passeriformes, pelicaniformes, struthioniformes, NA, rodentia","NA, Iguanidae, Columbidae, Cuculidae, Cracidae, Rallidae, Opisthocomidae, Tyrannidae, Threskiornithidae, Tinamidae, Sciuridae"
-cebus_olivaceus,67.62398764947562,Om,46.7,22.016666666666666,polygynandry,polygynandry,Multiple accounts of free individuals using tools to perform physical maintenance.,2646.8799999999997,NA,NA,NA,NA,NA,NA
-cebus_sp.,61.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cercocebus_agilis,110.64665633333334,Frug,NA,15,polygynandry,polygynandry,Anecdotal evidence of a captive individual using tools to capture food,7552.8099999999995,NA,NA,NA,NA,NA,NA
-cercocebus_atys,NA,NA,NA,NA,NA,NA,Multiple accounts of captive individuals using tools to perform physical maintenance,NA,NA,NA,NA,NA,NA,NA
-cercocebus_galeritus,102.63695512000001,Frug,80.1,22.5,polygynandry,polygynandry,NA,7837.5,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,NA
-cercocebus_torquatus,111.43379390156467,Frug,79,30.166666666666668,polygynandry,polygynandry,NA,8239.80111111111,NA,NA,NA,NA,NA,NA
-cercocebus_torquatus_atys,101.78363333333333,Frug,NA,95,polygynandry,polygynandry,NA,7770.62,NA,NA,NA,NA,NA,NA
-cercopithecus_aethiops,NA,NA,NA,NA,NA,NA,Multiple accounts of captive individuals using tools to capture food and perform physical maintenance,NA,NA,NA,NA,NA,NA,NA
-cercopithecus_albogularis,62,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cercopithecus_ascanius,65.30766769058314,Frug,60.8,26.976190476190474,polygyny,harem polygyny,Anecdotal evidence of a free individual using tools to perform physical maintenance,4156.746666666667,haplorrhini,simmiformes,cercopithecidae,aves,columbiformes,Columbidae
-cercopithecus_campbelli,58.981959923756975,Frug,78,9.625,polygyny,harem polygyny,Anecdotal evidence of a captive individual using a tool to perform physical maintenance.,3775.91,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,NA
-cercopithecus_cephus,67.03816716068376,Frug,79,10.5,polygyny,harem polygyny,NA,3516.626666666667,haplorrhini,simmiformes,cercopithecidae,aves,NA,NA
-cercopithecus_diana,64.86223333333335,Frug,52,20.3,polygyny,harem polygyny,NA,4519.636666666666,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,Hylobatidae
-cercopithecus_erythrogaster,NA,NA,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cercopithecus_hamlyni,NA,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cercopithecus_kandti,71.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cercopithecus_l'hoesti,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,aves,"birds, unid. spp. e125",NA
-cercopithecus_lhoesti,NA,Frug,NA,14.2,polygyny,harem polygyny,NA,5003.735000000001,NA,NA,NA,NA,NA,NA
-cercopithecus_mitis,74.45081522602327,Frug,54.5,21,polygynandry,harem polygyny,NA,6335.43,haplorrhini,simmiformes,cercopithecidae,"squamata, aves, mammalia","squamata, galliformes, passeriformes, strigiformes, NA, primates, rodentia","NA, Numididae, Cisticolidae, Locustellidae, Pycnonotidae, Strigidae, Galagidae, Muridae, Sciuridae"
-cercopithecus_mona,61.61938925382583,Frug,NA,21.5,polygyny,harem polygyny,NA,4466.723333333333,NA,NA,NA,NA,NA,NA
-cercopithecus_neglectus,67.54299589569969,Frug,77,5,polygyny,harem polygyny,NA,5589.84,haplorrhini,simmiformes,cercopithecidae,teleostei,NA,NA
-cercopithecus_nictitans,68.59516666666667,Frug,67.1,18.833333333333332,polygyny,harem polygyny,NA,5178.136666666666,NA,NA,NA,NA,NA,NA
-cercopithecus_petaurista,56.66006437960455,NA,NA,17.5,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,Hylobatidae
-cercopithecus_pogonias,63.26794444444444,Frug,82.9,14.833333333333334,polygyny,harem polygyny,NA,3588.09,NA,NA,NA,NA,NA,NA
-cercopithecus_preussi,NA,NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cercopithecus_sp.,54.394,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cercopithecus_wolfi,NA,NA,NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-ceropithecus_sp.,52.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cheirogaleus_major,6.41131234,Om,NA,5.5,solitary,spatial polygyny,NA,430.34,NA,NA,NA,NA,NA,NA
-cheirogaleus_medius,3.1834000000000002,Om,NA,2.3333333333333335,solitary,monogamy,NA,188.88,strepsirrhini,lemuriformes,lemuridae,squamata,squamata,NA
-chiropotes_satanas,45.385099285,Frug,16.2,19.333333333333332,polygynandry,polygynandry,NA,2955.135,NA,NA,NA,NA,NA,NA
-chlorocebus_aethiops,51.39313881360658,Frug,NA,22.67142857142857,polygynandry,polygynandry,NA,4214.496666666667,NA,NA,NA,NA,NA,NA
-chlorocebus_cynosuros,70.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-chlorocebus_pygerythrus,64.77661443698511,Frug,NA,40.5,polygynandry,polygynandry,NA,4060,haplorrhini,simmiformes,cercopithecidae,aves,"passeriformes, pelicaniformes","Ploceidae, Ardeidae"
-chlorocebus_sabaeus,65.16538461538461,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"squamata, aves, mammalia","squamata, bucerotiformes, columbiformes, passeriformes, lagomorpha, rodentia","Agamidae, Chamaeleonidae, Bucerotidae, Columbidae, Passeridae, Leporidae, Muridae"
-colobus_angolensis,72.6274447114295,Fol,14.9,9,polygynandry,harem polygyny,NA,8807.654999999999,NA,NA,NA,NA,NA,NA
-colobus_badius,NA,NA,NA,NA,NA,NA,Multiple accounts of free individuals using tools to be aggressive towards another,NA,NA,NA,NA,NA,NA,NA
-colobus_guereza,80.54714445084701,Fol,14,9.166666666666666,polygynandry,harem polygyny,NA,10052.376666666665,NA,NA,NA,NA,NA,NA
-colobus_polykomos,76.02049416202797,Fol,21.4,11,polygynandry,harem polygyny,NA,9118.54111111111,NA,NA,NA,NA,NA,NA
-colobus_satanas,NA,Fol,4,14.625,polygynandry,polygynandry,NA,10750,NA,NA,NA,NA,NA,NA
-colobus_sp.,81.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cynocephalus_sp.,120.66666666666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cynocephlus_sp.,130,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-daubentonia_madagascariensis,45.80709889139575,Om,0,1.75,solitary,spatial polygyny,NA,2603.1233333333334,NA,NA,NA,NA,NA,NA
-erthyrocebus_patas,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,squamata,squamata,"Agamidae, NA"
-erythrocebus_patas,98.80733331928572,Om,75,26.613636363636363,polygyny,harem polygyny,Anecdotal evidence of a captive individual using tools to capture food,7858.15,NA,NA,NA,NA,NA,NA
-eulemur_albifrons,22.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-eulemur_coronatus,21.39439752,Frug/Fol,NA,6.95,polygynandry,polygynandry,NA,2099.925,NA,NA,NA,NA,NA,NA
-eulemur_fulvus,NA,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,"aves, mammalia","passeriformes, primates","Monarchidae, Lemuridae"
-eulemur_fulvus_fulvus,19.832343346155497,Frug/Fol,46,9.983333333333334,polygynandry,polygynandry,NA,2332.33,NA,NA,NA,NA,NA,NA
-eulemur_fulvus_rufus,26.310224920000003,NA,NA,9.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-eulemur_macaco_macaco,23.866172491666667,Frug/Fol,NA,8.966666666666667,polygynandry,polygynandry,NA,2336.81,NA,NA,NA,NA,NA,NA
-eulemur_mongoz,23.24957612,Frug/Fol,18,2.84,pair,monogamy,NA,1810.3766666666668,NA,NA,NA,NA,NA,NA
-eulemur_rubriventer,26.038555769701425,Frug/Fol,NA,3.1,pair,monogamy,NA,1726.8,NA,NA,NA,NA,NA,NA
-eulemur_sp.,27.0096,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-euoticus_elegantulus,5.733931588000001,Om,5,2.5,solitary,spatial polygyny,NA,303.49333333333334,strepsirrhini,lorisiformes,lorisidae,aves,passeriformes,Cisticolidae
-galago_alleni,NA,Om,73,1.75,solitary,spatial polygyny,NA,250,strepsirrhini,lorisiformes,lorisidae,amphibia,anura,NA
-galago_moholi,3.8386365699284006,Om,NA,2,solitary,spatial polygyny,NA,183.48000000000002,strepsirrhini,lorisiformes,lorisidae,aves,passeriformes,"Monarchidae, Turdidae"
-galago_senegalensis,4.834612272278015,Om,0,1,solitary,spatial polygyny,NA,210.41111111111096,NA,NA,NA,NA,NA,NA
-galago_sp.,5.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-galagoides_demidoff,3.38,Om,19,2.25,solitary,spatial polygyny,NA,62.23555555555553,NA,NA,NA,NA,NA,NA
-galagoides_zanzibaricus,3.6411851700000004,Om,NA,3.5,solitary,spatial polygyny,NA,147.35,NA,NA,NA,NA,NA,NA
-gorilla_beringei,508.9591388,Fol,NA,13,polygyny,harem polygyny,NA,136212.595,NA,NA,NA,NA,NA,NA
-gorilla_gorilla,NA,NA,NA,NA,NA,NA,yes,NA,NA,NA,NA,NA,NA,NA
-gorilla_gorilla_gorilla,452.86693333333335,Fol,67,9.613793103448275,polygyny,harem polygyny,NA,121326.99666666666,NA,NA,NA,NA,NA,NA
-hapalemur_aureus,NA,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-hapalemur_griseus,14.6002444,Fol,NA,3.8666666666666667,pair,monogamy,NA,1021.3333333333334,NA,NA,NA,NA,NA,NA
-hapalemur_simus,NA,NA,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-homo_sapiens,1274.88104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-hoolock_hoolock,114.6648499539898,Frug,67,3.4,pair,monogamy,NA,6787,NA,NA,NA,NA,NA,NA
-hoolock_leuconedys,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,hylobatidae,aves,NA,NA
-hylobates_agilis,88.88388461538462,Frug/Fol,61,4.220000000000001,pair,monogamy,NA,5251.36,NA,NA,NA,NA,NA,NA
-hylobates_klossii,92.04337337999999,Om,72,3.5833333333333335,pair,monogamy,NA,5861.145,NA,NA,NA,NA,NA,NA
-hylobates_lar,97.88431587115399,Frug,60,3.8866666666666667,pair,monogamy,NA,5462.87,haplorrhini,simmiformes,hylobatidae,aves,NA,NA
-hylobates_moloch,106.708,Frug/Fol,61,3.5,pair,monogamy,NA,6034.405000000001,NA,NA,NA,NA,NA,NA
-hylobates_muelleri,94.46427394183759,Frug/Fol,NA,3.45,pair,monogamy,NA,5837.405000000001,NA,NA,NA,NA,NA,NA
-hylobates_pileatus,87.73385185185184,Frug/Fol,79.4,3.85,pair,monogamy,NA,5638.6849999999995,NA,NA,NA,NA,NA,NA
-hylobates_sp.,101.66666666666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-ignacius_graybullianus,2.14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-indri_indri,37.17984308125,Fol,33,3.342857142857143,pair,monogamy,NA,10500,NA,NA,NA,NA,NA,NA
-lagothrix_flavicauda,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,atelidae,squamata,squamata,Colubridae
-lagothrix_lagotricha,100.86442857142858,Om,65.7,23.244444444444444,polygynandry,polygynandry,NA,7647.8966666666665,haplorrhini,simmiformes,atelidae,"amphibia, mammalia","anura, rodentia","Hyelidae, NA"
-lemur_catta,22.296542276666667,Frug,54,15.928571428571429,polygynandry,polygynandry,NA,2380.4933333333333,NA,NA,NA,NA,NA,NA
-leontocebus_sp.,10.5525,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-leontopithecus_chrysomelas,12.261858501034128,Om,NA,6.7,pair,monogamy,NA,613.65,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA","NA, Dactyloidea, Tropiduridae"
-leontopithecus_chrysopygus,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata","NA, Dactyloidea, Tropiduridae"
-leontopithecus_rosalia,13.18637710890232,Om,84,5.4,pair,monogamy,NA,623.51,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, passeriformes","NA, Tropiduridae, Dactyloidea, Turdidae"
-lepilemur_mustelinus,9.90406676,Fol,6,1.3333333333333333,solitary,spatial polygyny,NA,625,NA,NA,NA,NA,NA,NA
-lepilemur_ruficaudatus,7.903266666666667,Fol,NA,NA,solitary,spatial polygyny,NA,750,NA,NA,NA,NA,NA,NA
-lophocebus_albigena,97.05157380937337,Frug,NA,15.596875,polygynandry,polygynandry,NA,7932.236666666667,NA,NA,NA,NA,NA,NA
-lophocebus_aterrimus,108.90500721333333,Frug,NA,9.5,polygynandry,polygynandry,NA,6655.1849999999995,NA,NA,NA,NA,NA,NA
-loris_lydekkerianus,6.572060654136135,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lorisiformes,lorisidae,squamata,squamata,Gekkonidae
-loris_tardigradus,6.020608684,Om,15,2,solitary,spatial polygyny,NA,269.8066666666667,strepsirrhini,lorisiformes,lorisidae,"squamata, aves","squamata, NA","Gekkonidae, NA"
-macaca_arctoides,97.13544490833668,Frug,NA,13.75,polygynandry,polygynandry,NA,7877.68,NA,NA,NA,NA,NA,NA
-macaca_assamensis,92.77995666795536,NA,NA,25.9,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves, mammalia, vertebrata",NA,NA
-macaca_fascicularis,61.03617231066757,Frug,66.9,27.405555555555555,polygynandry,polygynandry,"Multiple accounts of semi free and free individuals using tools to prepare food, free individuals using tools to extract food and perform physical maintenance, and captive individuals transporting and capturing food and performing physical maintenance and other tasks",4644.106666666667,haplorrhini,simmiformes,cercopithecidae,"teleostei, amphibia","NA, anura",NA
-macaca_fuscata,92.5308888888889,Frug/Fol,44,64.65,polygynandry,polygynandry,Multiple accounts of free individuals using tools to prepare and extract food and captive individuals capturing food,9498.880000000001,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves","anura, squamata, passeriformes","Hylidae, Ranidae, NA, Scincidae, Gekkonidae, Zosteropidae"
-macaca_leonina,90,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","cuculiformes, galliformes, NA, rodentia","Cuculidae, Phasianidae, NA, Sciuridae"
-macaca_maura,106.67142857142856,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-macaca_mulatta,80.6847665025321,Frug,63,33.61290322580645,polygynandry,polygynandry,"Multiple accounts of captive individuals preparing, transporting, and capturing food with tools",6471.73,NA,NA,NA,NA,NA,NA
-macaca_nemestrina,106.19761348143953,Frug,75,31.56,polygynandry,polygynandry,Multiple accounts of captive individuals using tools to capture food and perform physical maintenance,7244.593333333333,haplorrhini,simmiformes,cercopithecidae,"mammalia, vertebrata","rodentia, NA","Muridae, NA"
-macaca_nigra,97.02413333333334,Frug,NA,47,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools to extract food,7662.195,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves, mammalia","anura, squamata, galliformes, passeriformes, chiroptera","NA, Gekkonidae, Phasianidae, Monarchidae, Pteropodidae"
-macaca_radiata,79.46647348825516,Frug,53,29.05,polygynandry,polygynandry,Anecdotal evidence of free individuals using tools to perform physical maintenance,5877.495,haplorrhini,simmiformes,cercopithecidae,squamata,squamata,NA
-macaca_silenus,82.88,Om,NA,19,polygynandry,polygynandry,"Multiple accounts of free individuals using tools to prepare food, captive individuals to extract and transport food, and semi free individuals to transport food",6935.125,haplorrhini,simmiformes,cercopithecidae,mammalia,rodentia,Sciuridae
-macaca_sinica,65.74677110172485,Frug,75,24.8,polygynandry,polygynandry,NA,4512.995,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, mammalia",NA,NA
-macaca_sylvanus,93.4987018390168,Frug/Fol,33,21.86,polygynandry,polygynandry,NA,11173.265,NA,NA,NA,NA,NA,NA
-macaca_tonkeana,NA,NA,NA,NA,NA,NA,"Multiple accounts of captive individuals using tools to extract food and perform physical maintenance, and semi free individuals using tools to capture food",NA,NA,NA,NA,NA,NA,NA
-mandrillus_leucophaeus,185.96200000000002,Frug,NA,96.5,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools to perform physical maintenance,16251.65,haplorrhini,simmiformes,cercopithecidae,"amphibia, mammalia","anura, rodentia","NA, Muridae"
-mandrillus_sp.,132.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-mandrillus_sphinx,160.87121070833334,Frug,92,95,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools,19842.53,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, mammalia","anura, testudines, artiodactyla, eulipotyphla, rodentia","NA, Testudinidae, Bovidae, Soricidae, Muridae"
-microcebus_berthae,NA,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,squamata,squamata,"Chamaeleonidae, Gekkonidae"
-microcebus_murinus,1.8344578816470587,Om,51,5.1,solitary,spatial polygyny,NA,63.93333333333334,strepsirrhini,lemuriformes,lemuridae,"amphibia, squamata","anura, squamata","NA, Chamaeleonidae, Gekkonidae"
-microcebus_rufus,1.778192126666667,Om,NA,2.25,solitary,spatial polygyny,NA,48.39,NA,NA,NA,NA,NA,NA
-microcebus_sp.,1.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-miopithecus_talapoensis,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","NA, rodentia",NA
-miopithecus_talapoin,NA,Om,54,75.91666666666667,polygynandry,polygynandry,NA,1236.9533333333331,NA,NA,NA,NA,NA,NA
-mirza_coquereli,6.004526759000001,Om,NA,1.6666666666666667,solitary,spatial polygyny,NA,315.23333333333335,strepsirrhini,lemuriformes,lemuridae,"amphibia, squamata, aves, mammalia","anura, squamata, NA, rodentia, primates","NA, Chamaeleonidae, Cheirogaleidae"
-nasalis_larvatus,96.60570132405162,Fol,23,11.16,polygynandry,harem polygyny,NA,13441.825,NA,NA,NA,NA,NA,NA
-nomascus_concolor,NA,Frug,NA,3.5,pair,monogamy,NA,6631.735000000001,haplorrhini,simmiformes,hylobatidae,aves,NA,NA
-nomascus_gabriellae,122.93866666666668,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-nycticebus_bengalensis,13.977457370148974,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-nycticebus_coucang,10.859374395350098,Om,60,1,solitary,spatial polygyny,NA,838.35,strepsirrhini,lorisiformes,lorisidae,aves,NA,NA
-nycticebus_pygmaeus,7.644628129666667,Om,NA,NA,solitary,spatial polygyny,NA,413.7733333333333,NA,NA,NA,NA,NA,NA
-otolemur_crassicaudatus,11.250747505968995,Om,27,2.25,solitary,spatial polygyny,NA,1367.2033333333331,strepsirrhini,lorisiformes,lorisidae,"squamata, aves","squamata, passeriformes","NA, Calyptomenidae, Monarchidae, Muscicapidae, Nicatoridae, Pycnonodidae"
-otolemur_garnettii,11.239041368840237,Om,NA,NA,solitary,spatial polygyny,NA,1055.585,NA,NA,NA,NA,NA,NA
-pan_paniscus,338.69933333333336,Frug,NA,67.5,polygynandry,polygynandry,yes,37522.475,haplorrhini,simmiformes,hominidae,"aves, mammalia","NA, artiodactyla, chiroptera, eulipotyphla, primates, rodentia","NA, Bovidae, Suidae, Tragulidae, Cercopithecidae, Colobidae, Galagidae, Anomaluridae, Sciuridae"
-pan_troglodytes,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,hominidae,"teleostei, squamata, aves, mammalia","NA, testudines, accipitriformes, buceratiformes, cuculiformes, galliformes, passeriformes, piciformes, strigiformes, unspecified, artiodactyla, carnivora, macroscelidea, pholidota, primates, rodentia","NA, Testudinidae, Accipitridae, Buceratidae, Cuculidae, Numididae, Phasianidae, Colombidae, Corvidae, Moticillidae, Ploceidae, Pycnonotidae, Viduidae, Picidae, Strigidae, Bovidae, Suidae, Felidae, Viverridae, Macroscelididae, Manidae, Cercopithecidae, Galagidae, Lorisidae, Anomaluridae, Muridae, Nesomyidae, Sciuridae, Thryonomidae"
-pan_troglodytes_troglodytes,355.32953886651944,Frug,63,40.05294117647059,polygynandry,polygynandry,yes,48328,NA,NA,NA,NA,NA,NA
-papio_anubis,172.9361100383574,Frug,13.6,48.3027027027027,polygynandry,polygynandry,"Multiple accounts of free individuals preparing, extracting, to be aggressive towards another, and performing physical maintenance with tools and of captive individuals using tools to capture food",17209.52,haplorrhini,simmiformes,cercopithecidae,"teleostei, squamata, aves, mammalia","cypriniformes, NA, squamata, charadriiformes, galliformes, artiodactyla, chiroptera, lagomorpha, rodentia","Ciprinidae, NA, Gekkonidae, Chamaeleonidae, Scincidae, Varanidae, Turnicidae, Numididae, Phasianidae, Bovidae, Pterypodidae, Leporidae, Muridae"
-papio_cynocephalus,155.5423543590404,Frug,62,51.095454545454544,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools to capture food,14290.716666666667,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves, mammalia","anura, squamata, galliformes, artiodactyla, lagomorpha, primates, rodentia","NA, Numididae, Bovidae, Leporidae, Cercopithecidae, Galagidae, Bathyergidae"
-papio_hamadryas,129.93872727272728,Frug/Fol,88,41.125,polygynandry,harem polygyny,Multiple accounts of captive individuals using tools to capture food,12002.36,haplorrhini,simmiformes,cercopithecidae,"squamata, aves, mammalia","squamata, galliformes, NA, artiodactyla, hyracoidea, lagomorpha","Lacertidae, Phasianidae, NA, Bovidae, Procavidae, Leporidae"
-papio_papio,143.325,Frug,NA,136.66666666666666,polygynandry,harem polygyny,Multiple accounts of captive individuals using tools to capture food,17811.025,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","NA, lagomorpha, artiodactyla","NA, Leporidae, Bovidae"
-papio_ursinus,195.4334721671404,Frug/Fol,87,42.00909090909091,polygynandry,polygynandry,Multiple accounts of free individuals using tools to extract food and to be aggressive towards another and of captive individuals capturing food,20014.72,haplorrhini,simmiformes,cercopithecidae,"teleostei, squamata, aves, mammalia","cypriniformes, perciformes, testudines, galliformes, NA, artiodacytla, lagomorpha, primates, rodentia","Ciprinidae, Cichlidae, Testudinidae, Phasianidae, NA, Bovidae, Leporidae, Cercopithecidae, Sciuridae"
-perodicticus_potto,12.265623955039905,Om,65,1.25,solitary,spatial polygyny,NA,1124.4922222222199,strepsirrhini,lorisiformes,lorisidae,"aves, mammalia","NA, chiroptera","NA, Pteropodidae"
-piliocolobus_badius,71.69041422662931,Fol,11,28.721739130434784,polygynandry,polygynandry,NA,8105,NA,NA,NA,NA,NA,NA
-pithecia_monachus,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pithecia_pithecia,31.675988616549592,Frug,31.4,2.6500000000000004,polygynandry,polygynandry,NA,1573.595,NA,NA,NA,NA,NA,NA
-pongo_abelii,409.5198447714377,Frug,NA,2,solitary,spatial polygyny,yes,48223.06,haplorrhini,simmiformes,pongidae,mammalia,primates,Lorisidae
-pongo_pygmaeus,343.971028595804,Frug,64,1.6,solitary,spatial polygyny,yes,55279.145000000004,haplorrhini,simmiformes,pongidae,"teleostei, mammalia","siluriformes, anabantiformes, rodentia","Siluridae, Channidae, Sciuridae, Muridae"
-presbytis_comata,61.124,Fol,NA,7,polygyny,harem polygyny,NA,6460,NA,NA,NA,NA,NA,NA
-presbytis_melalophos,66.90504328910599,Fol,24,12.766666666666667,polygynandry,harem polygyny,NA,5326.373333333333,NA,NA,NA,NA,NA,NA
-presbytis_potenziani,NA,NA,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-procolobus_verus,54.528711236560255,Fol,9,8,polygynandry,polygynandry,NA,4025,NA,NA,NA,NA,NA,NA
-propithecus_coquereli,31.2810876,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-propithecus_deckenii,31.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-propithecus_diadema,41.23209679560062,Fol,20,5.55,polygynandry,polygynandry,NA,7500,NA,NA,NA,NA,NA,NA
-propithecus_verreauxi,26.92464732,Fol,41,6.016666666666667,polygynandry,polygynandry,NA,3389.42,NA,NA,NA,NA,NA,NA
-pygathrix_nemaeus,86.34772434720722,Fol,NA,20.96,polygynandry,harem polygyny,NA,9250.366666666667,NA,NA,NA,NA,NA,NA
-rhinopithecus_bieti,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","NA, rodentia","NA, Anomaluridae"
-rhinopithecus_roxellana,118.50401686666669,NA,NA,110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-saguinus_fuscicollis,7.704136489430297,Om,60.4,5.7,pair,polyandry,NA,406.83,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA
-saguinus_geoffroyi,15.561310397994598,Om,NA,5.15,pair,monogamy,NA,495.9,NA,NA,NA,NA,NA,NA
-saguinus_imperator,NA,NA,NA,4,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata",NA
-saguinus_leucopus,10.025625896835876,NA,NA,8.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-saguinus_midas,10.211350529823068,Om,69,5,pair,polyandry,NA,551.4533333333333,NA,NA,NA,NA,NA,NA
-saguinus_mystax,11.51908789533378,Om,NA,5.3,NA,NA,NA,541.2185714285714,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, NA, squamata","Hylabatidae, NA"
-saguinus_niger,16.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-saguinus_oedipus,9.754158746019286,Om,NA,6.053636363636364,pair,polyandry,NA,388.84666666666664,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata",NA
-saimiri_boliviensis,25.329938453180745,Om,NA,20,NA,NA,NA,707.225,haplorrhini,simmiformes,cebidae,"squamata, amphibia, aves","squamata, anura, NA",NA
-saimiri_cassaquiarensis,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,vertebrata,NA,NA
-saimiri_oerstedii,22.91234263288889,Om,NA,23.5,polygynandry,polygynandry,NA,670,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, NA, chiroptera","NA, Phyllostomidae"
-saimiri_sciureus,23.48208211022392,Om,28,37.90714285714286,polygynandry,polygynandry,NA,811.4900000000001,haplorrhini,simmiformes,cebidae,amphibia,anura,Hylidae
-sapajus_apella,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, reptilia, columbiformes, opisthocomiformes, passeriformes, pelicaniformes, piciformes, psittaciformes, tinnaniformes, NA, chiroptera, didelphimorphia, primates, rodentia","NA, Hyelidae, Squamata, Columbidae, Opithocomidae, Cardinalidae, Grallariidae, Icteridae, Thamnophilidae, Thraupidae, Trogloditidae, Tyrannidae, Ardeidae, Picidae, Psittacidae, Tinanidae, Emballanuridae, Didelphidae, Aotidae, Pitheciidae, Cricetidae, Muridae, Sciuridae"
-sapajus_flavius,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,squamata,squamata,"Iguanidae, Teiidae"
-sapajus_libidinosus,NA,NA,NA,NA,NA,NA,Multiple accounts of free individuals using tools to prepare and extract food and to perform physical maintenance.,NA,haplorrhini,simmiformes,cebidae,squamata,squamata,"Colubridae, Tropiduridae"
-sapajus_nigritus,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,aves,"pelicaniformes, piciformes","Ardeidae, Picidae"
-sapajus_xanthosternos,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,mammalia,primates,Callitrichidae
-sapajus_xanthosternus,NA,NA,NA,NA,NA,NA,Multiple accounts of free individuals using tools to extract food,NA,NA,NA,NA,NA,NA,NA
-semnopithecus_entellus,112.10514167865972,Fol,24.4,23.6,polygynandry,harem polygyny,NA,11398.763333333334,NA,NA,NA,NA,NA,NA
-semopithecus_sp.,61.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-simias_concolor,381,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-symphalangus_syndactylus,128.58048259625272,Fol,47,3.881818181818182,pair,monogamy,NA,9246.333333333334,NA,NA,NA,NA,NA,NA
-tarsius_bancanus,2.989389224526164,Om,NA,2,solitary,spatial polygyny,NA,104.83,haplorrhini,tarsiiformes,tarsidae,"teleostei, squamata, aves, mammalia","actinopterygii, squamata, NA, coraciiformes, passeriformes, chiroptera","NA, Elapidae, Alcedinidae, Sylviidae, Pittidae, Pteropodidae"
-tarsius_syrichta,3.4796355315555556,Om,0,2,solitary,spatial polygyny,NA,107.53666666666668,NA,NA,NA,NA,NA,NA
-tarsius_tarsier,3.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-theropithecus_gelada,130.14574160987655,Frug,26,143.64,polygynandry,harem polygyny,NA,14788.036666666667,NA,NA,NA,NA,NA,NA
-trachypithecus_cristatus,59.14751403772301,Fol,19,24.75,polygynandry,harem polygyny,Multiple accounts of free individuals using tools to be aggressive towards another,5453.936666666667,NA,NA,NA,NA,NA,NA
-trachypithecus_francoisi,93.33333333333333,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-trachypithecus_geei,101.41529356000001,NA,NA,14.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-trachypithecus_johnii,86.48189389422564,Fol,21,16.5,polygynandry,harem polygyny,NA,11098.36,NA,NA,NA,NA,NA,NA
-trachypithecus_obscurus,63.66254876920468,Fol,35,10.3,polygynandry,harem polygyny,NA,5775.96,NA,NA,NA,NA,NA,NA
-trachypithecus_phayrei,76.73630109173077,Fol,NA,8.8,polygyny,harem polygyny,NA,8040.860000000001,NA,NA,NA,NA,NA,NA
-trachypithecus_pileatus,107.37191864984632,Fol,NA,6.2,polygyny,harem polygyny,NA,10153.31,NA,NA,NA,NA,NA,NA
-trachypithecus_vetulus,63.49900193294666,Fol,NA,13,polygyny,harem polygyny,NA,7705.693333333334,NA,NA,NA,NA,NA,NA
-varecia_rubra,32.20293421333334,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-varecia_variegata_variegata,30.34650970424432,Frug,73.9,5.933333333333334,pair,monogamy,NA,3335,NA,NA,NA,NA,NA,NA
+species,mean_brain,diet_category,per_fruit,mean_groupsize,social_system,mating_system,tool_type,body_weight,infraorder,superfamily,family,prey,prey_order,prey_family,use_tools,genus,meat_eater
+allenopithecus_nigriviridis,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,teleostei,NA,NA,0,allenopithecus,1
+allenopithecus_nigroviridis,61.19674101333334,NA,NA,40,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,allenopithecus,0
+alouatta_caraya,50.1395191682517,Fol,25,7.025,polygynandry,harem polygyny,NA,5596.653333333333,haplorrhini,simmiformes,atelidae,aves,galliformes,Phasianidae,0,alouatta,1
+alouatta_guariba,53.947547164276756,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,atelidae,NA,NA,NA,0,alouatta,0
+alouatta_palliata,51.93576968963947,Fol,42,14.509782608695652,polygynandry,harem polygyny,NA,6358.996666666666,haplorrhini,simmiformes,atelidae,aves,NA,NA,0,alouatta,1
+alouatta_pigra,52.9655,Fol,NA,5.933333333333334,polygynandry,harem polygyny,NA,8940,haplorrhini,simmiformes,atelidae,NA,NA,NA,0,alouatta,0
+alouatta_seniculus,48.156329662209465,Fol,42,7.446428571428571,polygynandry,harem polygyny,Anecdotal evidence of a free individual using tools to be aggressive towards another,6247.359743589744,haplorrhini,simmiformes,atelidae,squamata,squamata,Iguanidae,1,alouatta,1
+aotus_azarai,21.412652333333334,Frug/Fol,NA,3,pair,monogamy,NA,1073.19,haplorrhini,NA,NA,NA,NA,NA,0,aotus,0
+aotus_lemurinus,NA,Frug,NA,3.5,pair,monogamy,NA,869.98,haplorrhini,NA,NA,NA,NA,NA,0,aotus,0
+aotus_trivirgatus,16.91290451167079,Frug,45.5,3.705,pair,monogamy,NA,870.8000000000001,haplorrhini,NA,NA,NA,NA,NA,0,aotus,0
+arctocebus_calabarensis,7.170563430191403,Om,NA,1.25,solitary,spatial polygyny,NA,239.33666666666667,strepsirrhini,NA,NA,NA,NA,NA,0,arctocebus,0
+ateles_belzebuth,108.0379368648439,Frug/Fol,83,16.666666666666668,polygynandry,polygynandry,NA,6409.139999999999,haplorrhini,NA,NA,NA,NA,NA,0,ateles,0
+ateles_fusciceps,98.05051168888889,Frug,NA,5,polygynandry,polygynandry,NA,8033.97,haplorrhini,NA,NA,NA,NA,NA,0,ateles,0
+ateles_geoffroyi,99.18426686231015,Frug,68.7,27.485294117647058,polygynandry,polygynandry,Multiple recorded observations of free individuals using tools for physical maintenance,6711.8,haplorrhini,NA,NA,NA,NA,NA,1,ateles,0
+ateles_paniscus,110.93825,Frug,82.9,22.5,polygynandry,polygynandry,NA,7789.5277777777765,haplorrhini,NA,NA,NA,NA,NA,0,ateles,0
+avahi_laniger,10.353631625,Fol,0,2.6666666666666665,pair,monogamy,NA,1300,strepsirrhini,NA,NA,NA,NA,NA,0,avahi,0
+avahi_occidentalis,8.9531,Fol,NA,NA,pair,monogamy,NA,795.5,strepsirrhini,NA,NA,NA,NA,NA,0,avahi,0
+brachyteles_arachnoides,NA,Frug/Fol,NA,26.928571428571427,polygynandry,polygynandry,NA,9247.5,haplorrhini,NA,NA,NA,NA,NA,0,brachyteles,0
+cacajao_calvus,NA,Frug,18,15,polygynandry,harem polygyny,NA,3293.02,haplorrhini,simmiformes,pitheciidae,squamata,squamata,NA,0,cacajao,1
+cacajao_melanocephala,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,amphibia,anura,NA,0,cacajao,1
+cacajao_ouakary,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,squamata,chelonidae,NA,0,cacajao,1
+callicebus_coimbrai,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,aves,passeriformes,Turdidae,0,callicebus,1
+callicebus_moloch,17.725,Frug,53.7,3.3464285714285715,pair,monogamy,NA,883.805238095238,haplorrhini,simmiformes,pitheciidae,NA,NA,NA,0,callicebus,0
+callicebus_personatus,NA,NA,NA,3.45,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,NA,NA,NA,0,callicebus,0
+callicebus_torquatus,20.55927496,Frug,33,3.66,pair,monogamy,NA,1152.5,haplorrhini,simmiformes,pitheciidae,NA,NA,NA,0,callicebus,0
+callimico_goeldii,11.882625833333334,Om,NA,6.5,pair,monogamy,NA,538.5,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA,0,callimico,1
+callithrix_argentata,7.911912726181819,Om,NA,6.199999999999999,pair,monogamy,NA,361.1233333333334,haplorrhini,simmiformes,callitrichidae,NA,NA,NA,0,callithrix,0
+callithrix_aurita,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,aves,NA,NA,0,callithrix,1
+callithrix_flaviceps,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA,0,callithrix,1
+callithrix_geoffroyi,8.642857142857142,Om,NA,9,pair,monogamy,NA,342,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata",NA,0,callithrix,1
+callithrix_humeralifer,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, passeriformes, NA","NA, Thamnophilidae, Thraupidae",0,callithrix,1
+callithrix_humeralifera,8.495199999999999,NA,NA,11.5,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,NA,NA,NA,0,callithrix,0
+callithrix_jacchus,7.7974721044,Frug,22,7.992857142857143,pair,polyandry,NA,272.705,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves, mammalia","anura, squamata, apodiformes, caprimuligiformes, colombiformes, passeriformes, NA, didelphimorphia, rodentia","Hylidae, NA, Gekkonidae, Trochilidae, Capromulgidae, Columbidae, Cotingidae, Thamnophilidae, Thraupidae, Turdidae, Tyrannidae, Didelphidae, Echimyidae",0,callithrix,1
+callithrix_kuhli,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA,0,callithrix,1
+callithrix_penicillata,7.524037040531802,Om,NA,6.6,pair,monogamy,NA,323.49,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves, mammalia","anura, NA, passeriformes, didelphimorphia, rodentia","Hylidae, NA, Columbidae, Icteridae, Didelphidae, Muridae",0,callithrix,1
+callithrix_pygmaea,4.5393400040000005,Om,0,5.47,pair,polyandry,NA,125.81333333333333,haplorrhini,simmiformes,callitrichidae,NA,NA,NA,0,callithrix,0
+cebuella_pygmaea,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata","Aromabatidae, Dactyloidea, Tropiduridae",0,cebuella,1
+cebus_albifrons,64.00796618102846,Om,24.6,19.083333333333332,polygynandry,polygynandry,Multiple recorded observations of free individuals using tools for food transportation,2535.56,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, passeriformes, rodentia, didelphimorphia","NA, Icteridae, Muridae, Didelphidae",1,cebus,1
+cebus_apella,71.62318093867096,Om,36,11.471428571428572,polygynandry,polygynandry,NA,2669.21,haplorrhini,simmiformes,cebidae,NA,NA,NA,0,cebus,0
+cebus_capucinus,65.12525086628662,Om,67.5,17.38888888888889,polygynandry,harem polygyny,"Multiple accounts of free individuals using tools to extract food, maintain their physical self, defend against predation, and to be aggressive towards another",2798.107777777777,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, NA, columbiformes, cuculiformes, galliformes, passeriformes, psittaciformes, tinaniformes, trogoniformes, unspecified, carnivora, chiroptera, rodentia","NA, Iguanidae, Anolidae, Columbidae, Cuculidae, Cracidae, Corvidae, Troglodytidae, Psittacidae, Tinanidae, Trogonidae, Procyanidae, Sciuridae, Echimyidae",1,cebus,1
+cebus_cay,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,"aves, mammalia","passeriformes, pelicaniformes, rodentia","Furnariidae, Threskiornithidae, Cricetidae",0,cebus,1
+cebus_nigritus,52.65,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,NA,NA,NA,0,cebus,0
+cebus_olivaceous,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, columbiformes, cuculiformes, galliformes, gruiformes, opisthocomiformes, passeriformes, pelicaniformes, struthioniformes, NA, rodentia","NA, Iguanidae, Columbidae, Cuculidae, Cracidae, Rallidae, Opisthocomidae, Tyrannidae, Threskiornithidae, Tinamidae, Sciuridae",0,cebus,1
+cebus_olivaceus,67.62398764947562,Om,46.7,22.016666666666666,polygynandry,polygynandry,Multiple accounts of free individuals using tools to perform physical maintenance.,2646.8799999999997,haplorrhini,simmiformes,cebidae,NA,NA,NA,1,cebus,0
+cercocebus_agilis,110.64665633333334,Frug,NA,15,polygynandry,polygynandry,Anecdotal evidence of a captive individual using tools to capture food,7552.8099999999995,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,1,cercocebus,0
+cercocebus_atys,NA,NA,NA,NA,NA,NA,Multiple accounts of captive individuals using tools to perform physical maintenance,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,1,cercocebus,0
+cercocebus_galeritus,102.63695512000001,Frug,80.1,22.5,polygynandry,polygynandry,NA,7837.5,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,NA,0,cercocebus,1
+cercocebus_torquatus,111.43379390156467,Frug,79,30.166666666666668,polygynandry,polygynandry,NA,8239.80111111111,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercocebus,0
+cercocebus_torquatus_atys,101.78363333333333,Frug,NA,95,polygynandry,polygynandry,NA,7770.62,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercocebus,0
+cercopithecus_aethiops,NA,NA,NA,NA,NA,NA,Multiple accounts of captive individuals using tools to capture food and perform physical maintenance,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,1,cercopithecus,0
+cercopithecus_albogularis,62,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_ascanius,65.30766769058314,Frug,60.8,26.976190476190474,polygyny,harem polygyny,Anecdotal evidence of a free individual using tools to perform physical maintenance,4156.746666666667,haplorrhini,simmiformes,cercopithecidae,aves,columbiformes,Columbidae,1,cercopithecus,1
+cercopithecus_campbelli,58.981959923756975,Frug,78,9.625,polygyny,harem polygyny,Anecdotal evidence of a captive individual using a tool to perform physical maintenance.,3775.91,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,NA,1,cercopithecus,1
+cercopithecus_cephus,67.03816716068376,Frug,79,10.5,polygyny,harem polygyny,NA,3516.626666666667,haplorrhini,simmiformes,cercopithecidae,aves,NA,NA,0,cercopithecus,1
+cercopithecus_diana,64.86223333333335,Frug,52,20.3,polygyny,harem polygyny,NA,4519.636666666666,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,Hylobatidae,0,cercopithecus,1
+cercopithecus_erythrogaster,NA,NA,NA,30,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_hamlyni,NA,NA,NA,10,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_kandti,71.6,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_l'hoesti,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,aves,"birds, unid. spp. e125",NA,0,cercopithecus,1
+cercopithecus_lhoesti,NA,Frug,NA,14.2,polygyny,harem polygyny,NA,5003.735000000001,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_mitis,74.45081522602327,Frug,54.5,21,polygynandry,harem polygyny,NA,6335.43,haplorrhini,simmiformes,cercopithecidae,"squamata, aves, mammalia","squamata, galliformes, passeriformes, strigiformes, NA, primates, rodentia","NA, Numididae, Cisticolidae, Locustellidae, Pycnonotidae, Strigidae, Galagidae, Muridae, Sciuridae",0,cercopithecus,1
+cercopithecus_mona,61.61938925382583,Frug,NA,21.5,polygyny,harem polygyny,NA,4466.723333333333,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_neglectus,67.54299589569969,Frug,77,5,polygyny,harem polygyny,NA,5589.84,haplorrhini,simmiformes,cercopithecidae,teleostei,NA,NA,0,cercopithecus,1
+cercopithecus_nictitans,68.59516666666667,Frug,67.1,18.833333333333332,polygyny,harem polygyny,NA,5178.136666666666,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_petaurista,56.66006437960455,NA,NA,17.5,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,amphibia,anura,Hylobatidae,0,cercopithecus,1
+cercopithecus_pogonias,63.26794444444444,Frug,82.9,14.833333333333334,polygyny,harem polygyny,NA,3588.09,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_preussi,NA,NA,NA,5,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cercopithecus_wolfi,NA,NA,NA,6.5,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,cercopithecus,0
+cheirogaleus_major,6.41131234,Om,NA,5.5,solitary,spatial polygyny,NA,430.34,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,cheirogaleus,0
+cheirogaleus_medius,3.1834000000000002,Om,NA,2.3333333333333335,solitary,monogamy,NA,188.88,strepsirrhini,lemuriformes,lemuridae,squamata,squamata,NA,0,cheirogaleus,1
+chiropotes_satanas,45.385099285,Frug,16.2,19.333333333333332,polygynandry,polygynandry,NA,2955.135,haplorrhini,NA,NA,NA,NA,NA,0,chiropotes,0
+chlorocebus_aethiops,51.39313881360658,Frug,NA,22.67142857142857,polygynandry,polygynandry,NA,4214.496666666667,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,chlorocebus,0
+chlorocebus_cynosuros,70.25,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,chlorocebus,0
+chlorocebus_pygerythrus,64.77661443698511,Frug,NA,40.5,polygynandry,polygynandry,NA,4060,haplorrhini,simmiformes,cercopithecidae,aves,"passeriformes, pelicaniformes","Ploceidae, Ardeidae",0,chlorocebus,1
+chlorocebus_sabaeus,65.16538461538461,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"squamata, aves, mammalia","squamata, bucerotiformes, columbiformes, passeriformes, lagomorpha, rodentia","Agamidae, Chamaeleonidae, Bucerotidae, Columbidae, Passeridae, Leporidae, Muridae",0,chlorocebus,1
+colobus_angolensis,72.6274447114295,Fol,14.9,9,polygynandry,harem polygyny,NA,8807.654999999999,haplorrhini,NA,NA,NA,NA,NA,0,colobus,0
+colobus_badius,NA,NA,NA,NA,NA,NA,Multiple accounts of free individuals using tools to be aggressive towards another,NA,haplorrhini,NA,NA,NA,NA,NA,1,colobus,0
+colobus_guereza,80.54714445084701,Fol,14,9.166666666666666,polygynandry,harem polygyny,NA,10052.376666666665,haplorrhini,NA,NA,NA,NA,NA,0,colobus,0
+colobus_polykomos,76.02049416202797,Fol,21.4,11,polygynandry,harem polygyny,NA,9118.54111111111,haplorrhini,NA,NA,NA,NA,NA,0,colobus,0
+colobus_satanas,NA,Fol,4,14.625,polygynandry,polygynandry,NA,10750,haplorrhini,NA,NA,NA,NA,NA,0,colobus,0
+daubentonia_madagascariensis,45.80709889139575,Om,0,1.75,solitary,spatial polygyny,NA,2603.1233333333334,strepsirrhini,NA,NA,NA,NA,NA,0,daubentonia,0
+erthyrocebus_patas,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,squamata,squamata,"Agamidae, NA",0,erthyrocebus,1
+erythrocebus_patas,98.80733331928572,Om,75,26.613636363636363,polygyny,harem polygyny,Anecdotal evidence of a captive individual using tools to capture food,7858.15,haplorrhini,NA,NA,NA,NA,NA,1,erythrocebus,0
+eulemur_albifrons,22.3,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,eulemur,0
+eulemur_coronatus,21.39439752,Frug/Fol,NA,6.95,polygynandry,polygynandry,NA,2099.925,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,eulemur,0
+eulemur_fulvus,NA,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,"aves, mammalia","passeriformes, primates","Monarchidae, Lemuridae",0,eulemur,1
+eulemur_fulvus_fulvus,19.832343346155497,Frug/Fol,46,9.983333333333334,polygynandry,polygynandry,NA,2332.33,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,eulemur,0
+eulemur_fulvus_rufus,26.310224920000003,NA,NA,9.2,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,eulemur,0
+eulemur_macaco_macaco,23.866172491666667,Frug/Fol,NA,8.966666666666667,polygynandry,polygynandry,NA,2336.81,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,eulemur,0
+eulemur_mongoz,23.24957612,Frug/Fol,18,2.84,pair,monogamy,NA,1810.3766666666668,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,eulemur,0
+eulemur_rubriventer,26.038555769701425,Frug/Fol,NA,3.1,pair,monogamy,NA,1726.8,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,eulemur,0
+euoticus_elegantulus,5.733931588000001,Om,5,2.5,solitary,spatial polygyny,NA,303.49333333333334,strepsirrhini,lorisiformes,lorisidae,aves,passeriformes,Cisticolidae,0,euoticus,1
+galago_alleni,NA,Om,73,1.75,solitary,spatial polygyny,NA,250,strepsirrhini,lorisiformes,lorisidae,amphibia,anura,NA,0,galago,1
+galago_moholi,3.8386365699284006,Om,NA,2,solitary,spatial polygyny,NA,183.48000000000002,strepsirrhini,lorisiformes,lorisidae,aves,passeriformes,"Monarchidae, Turdidae",0,galago,1
+galago_senegalensis,4.834612272278015,Om,0,1,solitary,spatial polygyny,NA,210.41111111111096,strepsirrhini,lorisiformes,lorisidae,NA,NA,NA,0,galago,0
+galagoides_demidoff,3.38,Om,19,2.25,solitary,spatial polygyny,NA,62.23555555555553,strepsirrhini,NA,NA,NA,NA,NA,0,galagoides,0
+galagoides_zanzibaricus,3.6411851700000004,Om,NA,3.5,solitary,spatial polygyny,NA,147.35,strepsirrhini,NA,NA,NA,NA,NA,0,galagoides,0
+gorilla_beringei,508.9591388,Fol,NA,13,polygyny,harem polygyny,NA,136212.595,haplorrhini,NA,NA,NA,NA,NA,0,gorilla,0
+gorilla_gorilla_gorilla,452.86693333333335,Fol,67,9.613793103448275,polygyny,harem polygyny,yes,121326.99666666666,haplorrhini,NA,NA,NA,NA,NA,1,gorilla,0
+hapalemur_aureus,NA,NA,NA,3,NA,NA,NA,NA,strepsirrhini,NA,NA,NA,NA,NA,0,hapalemur,0
+hapalemur_griseus,14.6002444,Fol,NA,3.8666666666666667,pair,monogamy,NA,1021.3333333333334,strepsirrhini,NA,NA,NA,NA,NA,0,hapalemur,0
+hapalemur_simus,NA,NA,NA,8,NA,NA,NA,NA,strepsirrhini,NA,NA,NA,NA,NA,0,hapalemur,0
+homo_sapiens,1274.88104,NA,NA,NA,NA,NA,yes,NA,haplorrhini,NA,NA,NA,NA,NA,1,homo,1
+hoolock_hoolock,114.6648499539898,Frug,67,3.4,pair,monogamy,NA,6787,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hoolock,0
+hoolock_leuconedys,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,hylobatidae,aves,NA,NA,0,hoolock,1
+hylobates_agilis,88.88388461538462,Frug/Fol,61,4.220000000000001,pair,monogamy,NA,5251.36,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hylobates,0
+hylobates_klossii,92.04337337999999,Om,72,3.5833333333333335,pair,monogamy,NA,5861.145,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hylobates,0
+hylobates_lar,97.88431587115399,Frug,60,3.8866666666666667,pair,monogamy,NA,5462.87,haplorrhini,simmiformes,hylobatidae,aves,NA,NA,0,hylobates,1
+hylobates_moloch,106.708,Frug/Fol,61,3.5,pair,monogamy,NA,6034.405000000001,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hylobates,0
+hylobates_muelleri,94.46427394183759,Frug/Fol,NA,3.45,pair,monogamy,NA,5837.405000000001,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hylobates,0
+hylobates_pileatus,87.73385185185184,Frug/Fol,79.4,3.85,pair,monogamy,NA,5638.6849999999995,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hylobates,0
+indri_indri,37.17984308125,Fol,33,3.342857142857143,pair,monogamy,NA,10500,strepsirrhini,NA,NA,NA,NA,NA,0,indri,0
+lagothrix_flavicauda,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,atelidae,squamata,squamata,Colubridae,0,lagothrix,1
+lagothrix_lagotricha,100.86442857142858,Om,65.7,23.244444444444444,polygynandry,polygynandry,NA,7647.8966666666665,haplorrhini,simmiformes,atelidae,"amphibia, mammalia","anura, rodentia","Hyelidae, NA",0,lagothrix,1
+lemur_catta,22.296542276666667,Frug,54,15.928571428571429,polygynandry,polygynandry,NA,2380.4933333333333,strepsirrhini,NA,NA,NA,NA,NA,0,lemur,0
+leontopithecus_chrysomelas,12.261858501034128,Om,NA,6.7,pair,monogamy,NA,613.65,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA","NA, Dactyloidea, Tropiduridae",0,leontopithecus,1
+leontopithecus_chrysopygus,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata","NA, Dactyloidea, Tropiduridae",0,leontopithecus,1
+leontopithecus_rosalia,13.18637710890232,Om,84,5.4,pair,monogamy,NA,623.51,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, passeriformes","NA, Tropiduridae, Dactyloidea, Turdidae",0,leontopithecus,1
+lepilemur_mustelinus,9.90406676,Fol,6,1.3333333333333333,solitary,spatial polygyny,NA,625,strepsirrhini,NA,NA,NA,NA,NA,0,lepilemur,0
+lepilemur_ruficaudatus,7.903266666666667,Fol,NA,NA,solitary,spatial polygyny,NA,750,strepsirrhini,NA,NA,NA,NA,NA,0,lepilemur,0
+lophocebus_albigena,97.05157380937337,Frug,NA,15.596875,polygynandry,polygynandry,NA,7932.236666666667,haplorrhini,NA,NA,NA,NA,NA,0,lophocebus,0
+lophocebus_aterrimus,108.90500721333333,Frug,NA,9.5,polygynandry,polygynandry,NA,6655.1849999999995,haplorrhini,NA,NA,NA,NA,NA,0,lophocebus,0
+loris_lydekkerianus,6.572060654136135,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lorisiformes,lorisidae,squamata,squamata,Gekkonidae,0,loris,1
+loris_tardigradus,6.020608684,Om,15,2,solitary,spatial polygyny,NA,269.8066666666667,strepsirrhini,lorisiformes,lorisidae,"squamata, aves","squamata, NA","Gekkonidae, NA",0,loris,1
+macaca_arctoides,97.13544490833668,Frug,NA,13.75,polygynandry,polygynandry,NA,7877.68,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,macaca,0
+macaca_assamensis,92.77995666795536,NA,NA,25.9,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves, mammalia, vertebrata",NA,NA,0,macaca,1
+macaca_fascicularis,61.03617231066757,Frug,66.9,27.405555555555555,polygynandry,polygynandry,"Multiple accounts of semi free and free individuals using tools to prepare food, free individuals using tools to extract food and perform physical maintenance, and captive individuals transporting and capturing food and performing physical maintenance and other tasks",4644.106666666667,haplorrhini,simmiformes,cercopithecidae,"teleostei, amphibia","NA, anura",NA,1,macaca,1
+macaca_fuscata,92.5308888888889,Frug/Fol,44,64.65,polygynandry,polygynandry,Multiple accounts of free individuals using tools to prepare and extract food and captive individuals capturing food,9498.880000000001,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves","anura, squamata, passeriformes","Hylidae, Ranidae, NA, Scincidae, Gekkonidae, Zosteropidae",1,macaca,1
+macaca_leonina,90,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","cuculiformes, galliformes, NA, rodentia","Cuculidae, Phasianidae, NA, Sciuridae",0,macaca,1
+macaca_maura,106.67142857142856,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,macaca,0
+macaca_mulatta,80.6847665025321,Frug,63,33.61290322580645,polygynandry,polygynandry,"Multiple accounts of captive individuals preparing, transporting, and capturing food with tools",6471.73,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,1,macaca,0
+macaca_nemestrina,106.19761348143953,Frug,75,31.56,polygynandry,polygynandry,Multiple accounts of captive individuals using tools to capture food and perform physical maintenance,7244.593333333333,haplorrhini,simmiformes,cercopithecidae,"mammalia, vertebrata","rodentia, NA","Muridae, NA",1,macaca,1
+macaca_nigra,97.02413333333334,Frug,NA,47,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools to extract food,7662.195,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves, mammalia","anura, squamata, galliformes, passeriformes, chiroptera","NA, Gekkonidae, Phasianidae, Monarchidae, Pteropodidae",1,macaca,1
+macaca_radiata,79.46647348825516,Frug,53,29.05,polygynandry,polygynandry,Anecdotal evidence of free individuals using tools to perform physical maintenance,5877.495,haplorrhini,simmiformes,cercopithecidae,squamata,squamata,NA,1,macaca,1
+macaca_silenus,82.88,Om,NA,19,polygynandry,polygynandry,"Multiple accounts of free individuals using tools to prepare food, captive individuals to extract and transport food, and semi free individuals to transport food",6935.125,haplorrhini,simmiformes,cercopithecidae,mammalia,rodentia,Sciuridae,1,macaca,1
+macaca_sinica,65.74677110172485,Frug,75,24.8,polygynandry,polygynandry,NA,4512.995,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, mammalia",NA,NA,0,macaca,1
+macaca_sylvanus,93.4987018390168,Frug/Fol,33,21.86,polygynandry,polygynandry,NA,11173.265,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,macaca,0
+macaca_tonkeana,NA,NA,NA,NA,NA,NA,"Multiple accounts of captive individuals using tools to extract food and perform physical maintenance, and semi free individuals using tools to capture food",NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,1,macaca,0
+mandrillus_leucophaeus,185.96200000000002,Frug,NA,96.5,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools to perform physical maintenance,16251.65,haplorrhini,simmiformes,cercopithecidae,"amphibia, mammalia","anura, rodentia","NA, Muridae",1,mandrillus,1
+mandrillus_sphinx,160.87121070833334,Frug,92,95,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools,19842.53,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, mammalia","anura, testudines, artiodactyla, eulipotyphla, rodentia","NA, Testudinidae, Bovidae, Soricidae, Muridae",1,mandrillus,1
+microcebus_berthae,NA,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,squamata,squamata,"Chamaeleonidae, Gekkonidae",0,microcebus,1
+microcebus_murinus,1.8344578816470587,Om,51,5.1,solitary,spatial polygyny,NA,63.93333333333334,strepsirrhini,lemuriformes,lemuridae,"amphibia, squamata","anura, squamata","NA, Chamaeleonidae, Gekkonidae",0,microcebus,1
+microcebus_rufus,1.778192126666667,Om,NA,2.25,solitary,spatial polygyny,NA,48.39,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,microcebus,0
+miopithecus_talapoensis,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","NA, rodentia",NA,0,miopithecus,1
+miopithecus_talapoin,NA,Om,54,75.91666666666667,polygynandry,polygynandry,NA,1236.9533333333331,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,miopithecus,0
+mirza_coquereli,6.004526759000001,Om,NA,1.6666666666666667,solitary,spatial polygyny,NA,315.23333333333335,strepsirrhini,lemuriformes,lemuridae,"amphibia, squamata, aves, mammalia","anura, squamata, NA, rodentia, primates","NA, Chamaeleonidae, Cheirogaleidae",0,mirza,1
+nasalis_larvatus,96.60570132405162,Fol,23,11.16,polygynandry,harem polygyny,NA,13441.825,haplorrhini,NA,NA,NA,NA,NA,0,nasalis,0
+nomascus_concolor,NA,Frug,NA,3.5,pair,monogamy,NA,6631.735000000001,haplorrhini,simmiformes,hylobatidae,aves,NA,NA,0,nomascus,1
+nomascus_gabriellae,122.93866666666668,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,nomascus,0
+nycticebus_bengalensis,13.977457370148974,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,lorisiformes,lorisidae,NA,NA,NA,0,nycticebus,0
+nycticebus_coucang,10.859374395350098,Om,60,1,solitary,spatial polygyny,NA,838.35,strepsirrhini,lorisiformes,lorisidae,aves,NA,NA,0,nycticebus,1
+nycticebus_pygmaeus,7.644628129666667,Om,NA,NA,solitary,spatial polygyny,NA,413.7733333333333,strepsirrhini,lorisiformes,lorisidae,NA,NA,NA,0,nycticebus,0
+otolemur_crassicaudatus,11.250747505968995,Om,27,2.25,solitary,spatial polygyny,NA,1367.2033333333331,strepsirrhini,lorisiformes,lorisidae,"squamata, aves","squamata, passeriformes","NA, Calyptomenidae, Monarchidae, Muscicapidae, Nicatoridae, Pycnonodidae",0,otolemur,1
+otolemur_garnettii,11.239041368840237,Om,NA,NA,solitary,spatial polygyny,NA,1055.585,strepsirrhini,lorisiformes,lorisidae,NA,NA,NA,0,otolemur,0
+pan_paniscus,338.69933333333336,Frug,NA,67.5,polygynandry,polygynandry,yes,37522.475,haplorrhini,simmiformes,hominidae,"aves, mammalia","NA, artiodactyla, chiroptera, eulipotyphla, primates, rodentia","NA, Bovidae, Suidae, Tragulidae, Cercopithecidae, Colobidae, Galagidae, Anomaluridae, Sciuridae",1,pan,1
+pan_troglodytes_troglodytes,355.32953886651944,Frug,63,40.05294117647059,polygynandry,polygynandry,yes,48328,haplorrhini,simmiformes,hominidae,"teleostei, squamata, aves, mammalia","NA, testudines, accipitriformes, buceratiformes, cuculiformes, galliformes, passeriformes, piciformes, strigiformes, unspecified, artiodactyla, carnivora, macroscelidea, pholidota, primates, rodentia","NA, Testudinidae, Accipitridae, Buceratidae, Cuculidae, Numididae, Phasianidae, Colombidae, Corvidae, Moticillidae, Ploceidae, Pycnonotidae, Viduidae, Picidae, Strigidae, Bovidae, Suidae, Felidae, Viverridae, Macroscelididae, Manidae, Cercopithecidae, Galagidae, Lorisidae, Anomaluridae, Muridae, Nesomyidae, Sciuridae, Thryonomidae",1,pan,1
+papio_anubis,172.9361100383574,Frug,13.6,48.3027027027027,polygynandry,polygynandry,"Multiple accounts of free individuals preparing, extracting, to be aggressive towards another, and performing physical maintenance with tools and of captive individuals using tools to capture food",17209.52,haplorrhini,simmiformes,cercopithecidae,"teleostei, squamata, aves, mammalia","cypriniformes, NA, squamata, charadriiformes, galliformes, artiodactyla, chiroptera, lagomorpha, rodentia","Ciprinidae, NA, Gekkonidae, Chamaeleonidae, Scincidae, Varanidae, Turnicidae, Numididae, Phasianidae, Bovidae, Pterypodidae, Leporidae, Muridae",1,papio,1
+papio_cynocephalus,155.5423543590404,Frug,62,51.095454545454544,polygynandry,polygynandry,Anecdotal evidence of captive individuals using tools to capture food,14290.716666666667,haplorrhini,simmiformes,cercopithecidae,"amphibia, squamata, aves, mammalia","anura, squamata, galliformes, artiodactyla, lagomorpha, primates, rodentia","NA, Numididae, Bovidae, Leporidae, Cercopithecidae, Galagidae, Bathyergidae",1,papio,1
+papio_hamadryas,129.93872727272728,Frug/Fol,88,41.125,polygynandry,harem polygyny,Multiple accounts of captive individuals using tools to capture food,12002.36,haplorrhini,simmiformes,cercopithecidae,"squamata, aves, mammalia","squamata, galliformes, NA, artiodactyla, hyracoidea, lagomorpha","Lacertidae, Phasianidae, NA, Bovidae, Procavidae, Leporidae",1,papio,1
+papio_papio,143.325,Frug,NA,136.66666666666666,polygynandry,harem polygyny,Multiple accounts of captive individuals using tools to capture food,17811.025,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","NA, lagomorpha, artiodactyla","NA, Leporidae, Bovidae",1,papio,1
+papio_ursinus,195.4334721671404,Frug/Fol,87,42.00909090909091,polygynandry,polygynandry,Multiple accounts of free individuals using tools to extract food and to be aggressive towards another and of captive individuals capturing food,20014.72,haplorrhini,simmiformes,cercopithecidae,"teleostei, squamata, aves, mammalia","cypriniformes, perciformes, testudines, galliformes, NA, artiodacytla, lagomorpha, primates, rodentia","Ciprinidae, Cichlidae, Testudinidae, Phasianidae, NA, Bovidae, Leporidae, Cercopithecidae, Sciuridae",1,papio,1
+perodicticus_potto,12.265623955039905,Om,65,1.25,solitary,spatial polygyny,NA,1124.4922222222199,strepsirrhini,lorisiformes,lorisidae,"aves, mammalia","NA, chiroptera","NA, Pteropodidae",0,perodicticus,1
+piliocolobus_badius,71.69041422662931,Fol,11,28.721739130434784,polygynandry,polygynandry,NA,8105,haplorrhini,NA,NA,NA,NA,NA,0,piliocolobus,0
+pithecia_monachus,35,NA,NA,NA,NA,NA,NA,NA,haplorrhini,NA,NA,NA,NA,NA,0,pithecia,0
+pithecia_pithecia,31.675988616549592,Frug,31.4,2.6500000000000004,polygynandry,polygynandry,NA,1573.595,haplorrhini,NA,NA,NA,NA,NA,0,pithecia,0
+pongo_abelii,409.5198447714377,Frug,NA,2,solitary,spatial polygyny,yes,48223.06,haplorrhini,simmiformes,pongidae,mammalia,primates,Lorisidae,1,pongo,1
+pongo_pygmaeus,343.971028595804,Frug,64,1.6,solitary,spatial polygyny,yes,55279.145000000004,haplorrhini,simmiformes,pongidae,"teleostei, mammalia","siluriformes, anabantiformes, rodentia","Siluridae, Channidae, Sciuridae, Muridae",1,pongo,1
+presbytis_comata,61.124,Fol,NA,7,polygyny,harem polygyny,NA,6460,haplorrhini,NA,NA,NA,NA,NA,0,presbytis,0
+presbytis_melalophos,66.90504328910599,Fol,24,12.766666666666667,polygynandry,harem polygyny,NA,5326.373333333333,haplorrhini,NA,NA,NA,NA,NA,0,presbytis,0
+presbytis_potenziani,NA,NA,NA,4,NA,NA,NA,NA,haplorrhini,NA,NA,NA,NA,NA,0,presbytis,0
+procolobus_verus,54.528711236560255,Fol,9,8,polygynandry,polygynandry,NA,4025,haplorrhini,NA,NA,NA,NA,NA,0,procolobus,0
+propithecus_coquereli,31.2810876,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,NA,NA,NA,NA,NA,0,propithecus,0
+propithecus_deckenii,31.6,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,NA,NA,NA,NA,NA,0,propithecus,0
+propithecus_diadema,41.23209679560062,Fol,20,5.55,polygynandry,polygynandry,NA,7500,strepsirrhini,NA,NA,NA,NA,NA,0,propithecus,0
+propithecus_verreauxi,26.92464732,Fol,41,6.016666666666667,polygynandry,polygynandry,NA,3389.42,strepsirrhini,NA,NA,NA,NA,NA,0,propithecus,0
+pygathrix_nemaeus,86.34772434720722,Fol,NA,20.96,polygynandry,harem polygyny,NA,9250.366666666667,haplorrhini,NA,NA,NA,NA,NA,0,pygathrix,0
+rhinopithecus_bieti,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,"aves, mammalia","NA, rodentia","NA, Anomaluridae",0,rhinopithecus,1
+rhinopithecus_roxellana,118.50401686666669,NA,NA,110,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,rhinopithecus,0
+saguinus_fuscicollis,7.704136489430297,Om,60.4,5.7,pair,polyandry,NA,406.83,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata, aves","anura, squamata, NA",NA,0,saguinus,1
+saguinus_geoffroyi,15.561310397994598,Om,NA,5.15,pair,monogamy,NA,495.9,haplorrhini,simmiformes,callitrichidae,NA,NA,NA,0,saguinus,0
+saguinus_imperator,NA,NA,NA,4,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata",NA,0,saguinus,1
+saguinus_leucopus,10.025625896835876,NA,NA,8.5,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,NA,NA,NA,0,saguinus,0
+saguinus_midas,10.211350529823068,Om,69,5,pair,polyandry,NA,551.4533333333333,haplorrhini,simmiformes,callitrichidae,NA,NA,NA,0,saguinus,0
+saguinus_mystax,11.51908789533378,Om,NA,5.3,NA,NA,NA,541.2185714285714,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, NA, squamata","Hylabatidae, NA",0,saguinus,1
+saguinus_niger,16.2,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,callitrichidae,NA,NA,NA,0,saguinus,0
+saguinus_oedipus,9.754158746019286,Om,NA,6.053636363636364,pair,polyandry,NA,388.84666666666664,haplorrhini,simmiformes,callitrichidae,"amphibia, squamata","anura, squamata",NA,0,saguinus,1
+saimiri_boliviensis,25.329938453180745,Om,NA,20,NA,NA,NA,707.225,haplorrhini,simmiformes,cebidae,"squamata, amphibia, aves","squamata, anura, NA",NA,0,saimiri,1
+saimiri_cassaquiarensis,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,vertebrata,NA,NA,0,saimiri,1
+saimiri_oerstedii,22.91234263288889,Om,NA,23.5,polygynandry,polygynandry,NA,670,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, squamata, NA, chiroptera","NA, Phyllostomidae",0,saimiri,1
+saimiri_sciureus,23.48208211022392,Om,28,37.90714285714286,polygynandry,polygynandry,NA,811.4900000000001,haplorrhini,simmiformes,cebidae,amphibia,anura,Hylidae,0,saimiri,1
+sapajus_apella,NA,NA,NA,NA,NA,NA,"Extensive observations of tool use including: captive, free, and semi free individuals extracting food with tools, captive individuals transporting food with a tool, and captive individuals to be aggressive towards another",NA,haplorrhini,simmiformes,cebidae,"amphibia, squamata, aves, mammalia","anura, reptilia, columbiformes, opisthocomiformes, passeriformes, pelicaniformes, piciformes, psittaciformes, tinnaniformes, NA, chiroptera, didelphimorphia, primates, rodentia","NA, Hyelidae, Squamata, Columbidae, Opithocomidae, Cardinalidae, Grallariidae, Icteridae, Thamnophilidae, Thraupidae, Trogloditidae, Tyrannidae, Ardeidae, Picidae, Psittacidae, Tinanidae, Emballanuridae, Didelphidae, Aotidae, Pitheciidae, Cricetidae, Muridae, Sciuridae",1,sapajus,1
+sapajus_flavius,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,squamata,squamata,"Iguanidae, Teiidae",0,sapajus,1
+sapajus_libidinosus,NA,NA,NA,NA,NA,NA,Multiple accounts of free individuals using tools to prepare and extract food and to perform physical maintenance.,NA,haplorrhini,simmiformes,cebidae,squamata,squamata,"Colubridae, Tropiduridae",1,sapajus,1
+sapajus_nigritus,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,aves,"pelicaniformes, piciformes","Ardeidae, Picidae",0,sapajus,1
+sapajus_xanthosternos,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,cebidae,mammalia,primates,Callitrichidae,0,sapajus,1
+sapajus_xanthosternus,NA,NA,NA,NA,NA,NA,Multiple accounts of free individuals using tools to extract food,NA,haplorrhini,simmiformes,cebidae,NA,NA,NA,1,sapajus,0
+semnopithecus_entellus,112.10514167865972,Fol,24.4,23.6,polygynandry,harem polygyny,NA,11398.763333333334,haplorrhini,NA,NA,NA,NA,NA,0,semnopithecus,0
+simias_concolor,381,NA,NA,NA,NA,NA,NA,NA,haplorrhini,NA,NA,NA,NA,NA,0,simias,0
+symphalangus_syndactylus,128.58048259625272,Fol,47,3.881818181818182,pair,monogamy,NA,9246.333333333334,haplorrhini,NA,NA,NA,NA,NA,0,symphalangus,0
+tarsius_bancanus,2.989389224526164,Om,NA,2,solitary,spatial polygyny,NA,104.83,haplorrhini,tarsiiformes,tarsidae,"teleostei, squamata, aves, mammalia","actinopterygii, squamata, NA, coraciiformes, passeriformes, chiroptera","NA, Elapidae, Alcedinidae, Sylviidae, Pittidae, Pteropodidae",0,tarsius,1
+tarsius_syrichta,3.4796355315555556,Om,0,2,solitary,spatial polygyny,NA,107.53666666666668,haplorrhini,tarsiiformes,tarsidae,NA,NA,NA,0,tarsius,0
+tarsius_tarsier,3.6,NA,NA,NA,NA,NA,NA,NA,haplorrhini,tarsiiformes,tarsidae,NA,NA,NA,0,tarsius,0
+theropithecus_gelada,130.14574160987655,Frug,26,143.64,polygynandry,harem polygyny,NA,14788.036666666667,haplorrhini,NA,NA,NA,NA,NA,0,theropithecus,0
+trachypithecus_cristatus,59.14751403772301,Fol,19,24.75,polygynandry,harem polygyny,Multiple accounts of free individuals using tools to be aggressive towards another,5453.936666666667,haplorrhini,NA,NA,NA,NA,NA,1,trachypithecus,0
+trachypithecus_francoisi,93.33333333333333,NA,NA,NA,NA,NA,NA,NA,haplorrhini,NA,NA,NA,NA,NA,0,trachypithecus,0
+trachypithecus_geei,101.41529356000001,NA,NA,14.1,NA,NA,NA,NA,haplorrhini,NA,NA,NA,NA,NA,0,trachypithecus,0
+trachypithecus_johnii,86.48189389422564,Fol,21,16.5,polygynandry,harem polygyny,NA,11098.36,haplorrhini,NA,NA,NA,NA,NA,0,trachypithecus,0
+trachypithecus_obscurus,63.66254876920468,Fol,35,10.3,polygynandry,harem polygyny,NA,5775.96,haplorrhini,NA,NA,NA,NA,NA,0,trachypithecus,0
+trachypithecus_phayrei,76.73630109173077,Fol,NA,8.8,polygyny,harem polygyny,NA,8040.860000000001,haplorrhini,NA,NA,NA,NA,NA,0,trachypithecus,0
+trachypithecus_pileatus,107.37191864984632,Fol,NA,6.2,polygyny,harem polygyny,NA,10153.31,haplorrhini,NA,NA,NA,NA,NA,0,trachypithecus,0
+trachypithecus_vetulus,63.49900193294666,Fol,NA,13,polygyny,harem polygyny,NA,7705.693333333334,haplorrhini,NA,NA,NA,NA,NA,0,trachypithecus,0
+varecia_rubra,32.20293421333334,NA,NA,NA,NA,NA,NA,NA,strepsirrhini,NA,NA,NA,NA,NA,0,varecia,0
+varecia_variegata_variegata,30.34650970424432,Frug,73.9,5.933333333333334,pair,monogamy,NA,3335,strepsirrhini,NA,NA,NA,NA,NA,0,varecia,0

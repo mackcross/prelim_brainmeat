@@ -1,0 +1,111 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+rm(list=ls())
+# necessary libraries 
+library(tidyverse)
+library(ggplot2)
+library(kableExtra)
+library(readr)
+library(dplyr)
+
+# necessary dataframes
+all_df <- read_csv("~/Documents/research/tools_diet_brain/data/cleaned_df.csv")
+meat_df <- read_csv("~/Documents/research/tools_diet_brain/data/meat_df.csv")
+```
+
+# INTRODUCTION
+/
+
+## CARNIVORY ACROSS PRIMATES 
+Watts (2020) reviewed meat eating across primates. 
+
+```{r, echo=FALSE}
+summary_infra_prey <- meat_df %>%
+  group_by(prey, infraorder) %>%
+  summarize(prey_frequency = n()) %>%
+  pivot_wider(names_from = infraorder, values_from = prey_frequency, values_fill = 0)
+
+kable(summary_infra_prey, caption = "Summary of Prey Frequency by Infraorder") %>%
+  kable_styling(bootstrap_options = "striped")
+
+```
+
+
+```{r, echo=FALSE}
+prey_order <- c("amphibia", "squamata", "vertebrata", "aves", "mammalia", "teleostei")
+meat_df$prey <- factor(meat_df$prey, levels = prey_order)
+
+family_order <- c("hominidae", "pongidae", "hylobatidae", "cercopithecidae", "atelidae", "pitheciidae", "cebidae", "callitrichidae", "tarsidae", "lemuridae", "lorisidae")
+meat_df$family <- factor(meat_df$family, levels = family_order)
+
+my_colors <- c("amphibia" = "#ffffcc", "squamata" = "#c7e9b4", "vertebrata" = "#7fcdbb", "aves" = "#41b6c4", "mammalia" = "#2c7fb8", "teleostei" = "#253494")
+
+p <- ggplot(data = meat_df, aes(x=family, fill=prey)) +
+  geom_bar() +
+  theme(panel.background = element_rect(fill = "white", colour = NA),
+        panel.grid.major = element_line(colour = "lightgrey"), 
+        panel.grid.minor = element_blank(), 
+        panel.border = element_blank(),
+        legend.title = element_text(size = 9), 
+        panel.grid.major.x = element_blank(),
+        axis.title.x = element_blank(), 
+        axis.text.x = element_text(angle = 30)) + 
+  scale_fill_manual(values = my_colors, name = "Prey Type") +
+  scale_y_continuous(breaks = seq(0, 120, 20), name = "Observations")
+p
+```
+
+
+## TOOL USE ACROSS PRIMATES
+
+```{r, echo=FALSE}
+summary_tool <- all_df %>%
+  group_by(use_tools, infraorder) %>%
+  summarize(users = n()) %>%
+  pivot_wider(names_from = infraorder, values_from = users, values_fill = 0)
+
+kable(summary_tool, caption = "Inconsistent Tool Use") %>%
+  kable_styling(bootstrap_options = "striped")
+```
+
+
+
+```{r, echo=FALSE}
+tmp <- subset(all_df, use_tools == 1)
+
+# Create the plot using the subsetted data frame
+p <- ggplot(data = tmp, aes(x=genus, fill=use_tools)) + 
+  theme(axis.text.x = element_text(angle = 30)) +
+  scale_y_continuous(breaks = seq(0, 9, 3), name = "Tooling Species") +
+  geom_bar()
+p
+```
+
+
+```{r}
+all_df$use_tools <- factor(all_df$use_tools)
+
+p <- ggplot(all_df, aes(x=mean_brain, y=mean_groupsize, size=use_tools, color=meat_eater)) +
+  geom_point(alpha=0.5) +
+  scale_size_manual(values = c(.5, 3), name="UNTITLED")
+p
+```
+
+
+
+# METHODS 
+/
+
+
+
+
+
+
+
