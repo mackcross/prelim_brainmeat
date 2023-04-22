@@ -1,5 +1,8 @@
 ---
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -14,6 +17,10 @@ library(ggplot2)
 library(kableExtra)
 library(readr)
 library(dplyr)
+library(ggpubr)
+library(broom)
+library(AICcmodavg)
+library(plotly)
 
 # necessary dataframes
 all_df <- read_csv("~/Documents/research/tools_diet_brain/data/cleaned_df.csv")
@@ -21,24 +28,32 @@ meat_df <- read_csv("~/Documents/research/tools_diet_brain/data/meat_df.csv")
 ```
 
 # INTRODUCTION
-/
 
+
+This project serves as an exploration of possible interactions between tool use, diet, social groupings and other variables, and is far from comprehensive. Future work should consider the role of resource distribution and perhaps predation risk, among other factors. 
+
+
+# METHODS 
+The data in the subsequent analysis was acquired from 1) the supplemental materials associated with peer reviewed publications and 2) Wikipedia. 
+
+
+
+# ANALYSIS 
 ## CARNIVORY ACROSS PRIMATES 
 Watts (2020) reviewed meat eating across primates. 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
 summary_infra_prey <- meat_df %>%
   group_by(prey, infraorder) %>%
   summarize(prey_frequency = n()) %>%
   pivot_wider(names_from = infraorder, values_from = prey_frequency, values_fill = 0)
 
 kable(summary_infra_prey, caption = "Summary of Prey Frequency by Infraorder") %>%
-  kable_styling(bootstrap_options = "striped")
-
+  kable_styling(bootstrap_options = "striped") 
 ```
 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
 prey_order <- c("amphibia", "squamata", "vertebrata", "aves", "mammalia", "teleostei")
 meat_df$prey <- factor(meat_df$prey, levels = prey_order)
 
@@ -50,7 +65,7 @@ my_colors <- c("amphibia" = "#ffffcc", "squamata" = "#c7e9b4", "vertebrata" = "#
 p <- ggplot(data = meat_df, aes(x=family, fill=prey)) +
   geom_bar() +
   theme(panel.background = element_rect(fill = "white", colour = NA),
-        panel.grid.major = element_line(colour = "lightgrey"), 
+        panel.grid.major = element_line(size =0.2, colour = "lightgrey"), 
         panel.grid.minor = element_blank(), 
         panel.border = element_blank(),
         legend.title = element_text(size = 9), 
@@ -58,26 +73,28 @@ p <- ggplot(data = meat_df, aes(x=family, fill=prey)) +
         axis.title.x = element_blank(), 
         axis.text.x = element_text(angle = 30)) + 
   scale_fill_manual(values = my_colors, name = "Prey Type") +
-  scale_y_continuous(breaks = seq(0, 120, 20), name = "Observations")
+  scale_y_continuous(breaks = seq(0, 120, 20), name = "Observations") + 
+  ggtitle("Diversity of Prey Type in Carnivorous Primate Families") + 
+  theme(plot.title = element_text(face="bold", hjust=0.75, size = 16))
 p
 ```
 
 
 ## TOOL USE ACROSS PRIMATES
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
 summary_tool <- all_df %>%
   group_by(use_tools, infraorder) %>%
   summarize(users = n()) %>%
   pivot_wider(names_from = infraorder, values_from = users, values_fill = 0)
 
 kable(summary_tool, caption = "Inconsistent Tool Use") %>%
-  kable_styling(bootstrap_options = "striped")
+  kable_styling(bootstrap_options = "striped") 
 ```
 
 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
 tmp <- subset(all_df, use_tools == 1)
 
 # Create the plot using the subsetted data frame
@@ -89,23 +106,41 @@ p
 ```
 
 
-```{r}
+```{r, echo=FALSE, warning=FALSE}
 all_df$use_tools <- factor(all_df$use_tools)
+all_df$meat_eater <- factor(all_df$meat_eater)
 
-p <- ggplot(all_df, aes(x=mean_brain, y=mean_groupsize, size=use_tools, color=meat_eater)) +
+p <- ggplot(all_df, aes(x=mean_brain, y=mean_groupsize, size=use_tools, color=meat_eater, text=species)) +
   geom_point(alpha=0.5) +
-  scale_size_manual(values = c(.5, 3), name="UNTITLED")
-p
+  scale_size_manual(values = c(.5, 3), name="Observed Tooling", labels = c("Non-Tool User", "Tool User")) +
+  scale_color_manual(values = c("#af8dc3", "#7fbf7b"), name = "Carnivory", labels = c("Non-Meat Eater", "Meat Eater")) +
+  theme(panel.background = element_rect(fill = "white", colour = NA), 
+        panel.grid.major = element_line(size =0.2, colour = "lightgrey")) +
+  scale_x_continuous(trans='log10', name = "Average Brain Size") +
+  scale_y_continuous(name = "Group Size") +
+  ggtitle("Overview of Primate Drivers") + 
+  theme(plot.title = element_text(face="bold", size = 16))
+
+ggplotly(p, tooltip=c("text", "size", "color")) %>%
+  layout(showlegend = FALSE)
 ```
 
 
 
-# METHODS 
-/
+ANOVA
+```{r, echo=FALSE, warning=FALSE}
+# tool <- aov(yield ~ fertilizer + density + block, data = crop.data)
+
+# summary(blocking)
+```
 
 
 
 
+# REFERENCES 
+DeCasien, A. R., Trujillo, A. E., Janiak, M. C., Harshaw, E. P., Caes, Z. N., Galindo, G. A., ... & Higham, J. P. (2022). Equivocal evidence for a link between megalencephaly-related genes and primate brain size evolution. Scientific reports, 12(1), 1-10.
+
+Watts, D. P. (2020). Meat eating by nonhuman primates: a review and synthesis. Journal of human evolution, 149, 102882.
 
 
 

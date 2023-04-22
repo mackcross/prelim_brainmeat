@@ -28,11 +28,12 @@ tool_df$species <- gsub(" ", "_", tool_df$species)
 tool_df$species <- tolower(tool_df$species)
 #one name wasn't extracted properly 
 tool_df$species <- ifelse(tool_df$species == "brown_capuchin_(sapajus_apella", "sapajus_apella", tool_df$species)
+tool_df$species <- ifelse(tool_df$species == "sapajus_xanthosternus", "sapajus_xanthosternos", tool_df$species)
 
 #the tool use Wikipedia link did not have tool use for apes within the table
 #this has been manually appended
-species <- c("pan_troglodytes_troglodytes", "pan_paniscus", "pongo_abelii", "pongo_pygmaeus", "gorilla_gorilla_gorilla", "homo_sapiens")
-tool_type <- c("yes", "yes", "yes", "yes", "yes", "yes")
+species <- c("pan_troglodytes_troglodytes", "pan_paniscus", "pongo_abelii", "pongo_pygmaeus", "gorilla_gorilla_gorilla", "homo_sapiens", "gorilla_beringei")
+tool_type <- c("yes", "yes", "yes", "yes", "yes", "yes", "yes")
 ape_tool_df <- data.frame(species, tool_type)
 tool_df <- rbind(tool_df, ape_tool_df)  
 
@@ -53,6 +54,13 @@ meat_df$prey_family <- factor(meat_df$prey_family)
 meat_df$primate_species <- gsub(" ", "_", meat_df$primate_species)
 names(meat_df)[names(meat_df) == "primate_species"] <- "species"
 meat_df$species <- ifelse(meat_df$species == "pan_troglodytes", "pan_troglodytes_troglodytes", meat_df$species)
+meat_df$species <- ifelse(meat_df$species == "callithrix_humeralifer", "callithrix_humeralifera", meat_df$species)
+meat_df$species <- ifelse(meat_df$species == "allenopithecus_nigriviridis", "allenopithecus_nigroviridis", meat_df$species)
+meat_df$species <- ifelse(meat_df$species == "cebuella_pygmaea", "callithrix_pygmaea", meat_df$species)
+meat_df$species <- ifelse(meat_df$species == "cebus_olivaceous", "cebus_olivaceus", meat_df$species)
+meat_df$species <- ifelse(meat_df$species == "cercopithecus_l'hoesti", "cercopithecus_lhoesti", meat_df$species)
+meat_df$species <- ifelse(meat_df$species == "erthyrocebus_patas", "erythrocebus_patas", meat_df$species)
+meat_df$species <- ifelse(meat_df$species == "eulemur_fulvus", "eulemur_fulvus_fulvus", meat_df$species)
 #fixed spelling errors
 levels(meat_df$prey)[levels(meat_df$prey) == "amhibia"] <- "amphibia"
 # collapsede reptilia under squamata 
@@ -151,13 +159,16 @@ df6 <- df6 %>%
 df6 <- unique(df6)
 df7 <- merge(df5, df6, by = "species", all = TRUE)
 
+#############################################################
 # add a tool user column 
 if("tool_type" %in% colnames(df7)){
   df7$use_tools <- 0
   df7$use_tools[!is.na(df7$tool_type) & df7$tool_type != ""] <- 1
 }
 
-# Remove the _sp. rows (they're redundant)
+############################################################
+# modify rows and add columns 
+# remove the _sp. rows (they're redundant)
 rows_to_remove <- grepl("_sp\\.", df7$species) 
 df7 <- df7[!rows_to_remove, ]
 
@@ -165,8 +176,7 @@ df7 <- df7[!rows_to_remove, ]
 genus <- sapply(strsplit(df7$species, "_"), "[", 1)
 df7$genus <- genus
 
-
-# trying to fill in some of the empty taxonomic NA values
+# trying to fill in some of the NA INFRAORDER 
 df7[df7$species == "aotus_azarai", "infraorder"] <- "haplorrhini"
 df7[df7$species == "ateles_belzebuth", "infraorder"] <- "haplorrhini"
 df7[df7$species == "chiropotes_satanas", "infraorder"] <- "haplorrhini"
@@ -200,6 +210,44 @@ df7[df7$species == "propithecus_coquereli", "infraorder"] <- "strepsirrhini"
 df7[df7$species == "varecia_rubra", "infraorder"] <- "strepsirrhini"
 df7[df7$species == "varecia_variegata_variegata", "infraorder"] <- "strepsirrhini"
 
+# trying to fill in some of the NA Family  
+df7[df7$species == "aotus_azarai", "family"] <- "aotidae"
+df7[df7$species == "arctocebus_calabarensis", "family"] <- "lorisidae"
+df7[df7$species == "ateles_belzebuth", "family"] <- "atelidae"
+df7[df7$species == "avahi_laniger", "family"] <- "indriidae"
+df7[df7$species == "brachyteles_arachnoides", "family"] <- "atelidae"
+df7[df7$species == "chiropotes_satanas", "family"] <- "pitheciidae"
+df7[df7$species == "colobus_angolensis", "family"] <- "cercopithecidae"
+df7[df7$species == "daubentonia_madagascariensis", "family"] <- "daubentoniidae"
+df7[df7$species == "galagoides_demidoff", "family"] <- "galagoides"
+df7[df7$species == "gorilla_beringei", "family"] <- "homininae"
+df7[df7$species == "hapalemur_aureus", "family"] <- "lemuridae"
+df7[df7$species == "homo_sapiens", "family"] <- "homininae"
+df7[df7$species == "indri_indri", "family"] <- "indriidae"
+df7[df7$species == "lemur_catta", "family"] <- "lemuridae"
+df7[df7$species == "lepilemur_mustelinus", "family"] <- "lepilemuridae"
+df7[df7$species == "lophocebus_albigena", "family"] <- "cercopithecidae"
+df7[df7$species == "nasalis_larvatus", "family"] <- "cercopithecidae"
+df7[df7$species == "piliocolobus_badius", "family"] <- "cercopithecidae"
+df7[df7$species == "pithecia_monachus", "family"] <- "pitheciidae"
+df7[df7$species == "presbytis_comata", "family"] <- "cercopithecidae"
+df7[df7$species == "procolobus_verus", "family"] <- "cercopithecidae"
+df7[df7$species == "propithecus_coquereli", "family"] <- "indriidae"
+df7[df7$species == "pygathrix_nemaeus", "family"] <- "cercopithecidae"
+df7[df7$species == "semnopithecus_entellus", "family"] <- "cercopithecidae"
+df7[df7$species == "simias_concolor", "family"] <- "cercopithecidae"
+df7[df7$species == "symphalangus_syndactylus", "family"] <- "hylobatidae"
+df7[df7$species == "theropithecus_gelada", "family"] <- "cercopithecidae"
+df7[df7$species == "trachypithecus_cristatus", "family"] <- "cercopithecidae"
+df7[df7$species == "varecia_rubra", "family"] <- "lemuridae"
+
+
+df7[df7$species == "aotus_azarai", "superfamily"] <- "simmiformes"
+df7[df7$species == "avahi_laniger", "superfamily"] <- "lemuriformes"
+df7[df7$species == "daubentonia_madagascariensis", "superfamily"] <- "lemuriformes"
+df7[df7$species == "galagoides_demidoff", "superfamily"] <- "lorisiformes"
+df7[df7$species == "gorilla_beringei", "superfamily"] <- "simmiformes"
+df7[df7$species == "lepilemur_mustelinus", "superfamily"] <- "lemuriformes"
 
 for (i in unique(df7$genus)) {
   missing_rows <- which(df7$genus == i & is.na(df7$infraorder))
@@ -225,6 +273,13 @@ for (i in unique(df7$genus)) {
   }
 }
 
+for (i in unique(df7$family)) {
+  missing_rows <- which(df7$family == i & is.na(df7$superfamily))
+  non_missing_row <- which(df7$family == i & !is.na(df7$superfamily))[1]
+  if (length(non_missing_row) > 0) {
+    df7$superfamily[missing_rows] <- df7$superfamily[non_missing_row]
+  }
+}
 
 # removing the proto-primate
 df7 <- df7[df7$species != "ignacius_graybullianus", ]
@@ -235,7 +290,12 @@ if("prey" %in% colnames(df7)){
   df7$meat_eater[!is.na(df7$prey) & df7$prey != ""] <- 1
 }
 
+# designating humans as meat eaters 
 df7[df7$species == "homo_sapiens", "meat_eater"] <- "1"
+
+# create a new row creating a brain_body ratio 
+# df7$eq <- (df7$mean_brain / 0.12) * ((df7$body_weight)^0.66)
+
 
 #############################################################
 #finishing creation of new columns 
