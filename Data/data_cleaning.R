@@ -296,6 +296,8 @@ df7[df7$species == "homo_sapiens", "meat_eater"] <- "1"
 # create a new row creating a brain_body ratio 
 # df7$eq <- (df7$mean_brain / 0.12) * ((df7$body_weight)^0.66)
 
+df7$family <- ifelse(df7$family == "homininae", "hominidae", df7$family)
+df7$family <- ifelse(df7$family == "pongidae", "hominidae", df7$family)
 
 #############################################################
 #finishing creation of new columns 
@@ -313,6 +315,7 @@ for (i in 1:nrow(meat_df)){
     meat_df$parvorder[i] <- "lemuriforms"
   }
 }
+
 
 
 library(readr)

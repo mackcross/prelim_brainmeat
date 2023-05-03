@@ -89,12 +89,12 @@ galago_moholi,3.8386365699284006,Om,NA,2,solitary,spatial polygyny,NA,183.480000
 galago_senegalensis,4.834612272278015,Om,0,1,solitary,spatial polygyny,NA,210.41111111111096,strepsirrhini,lorisiformes,lorisidae,NA,NA,NA,0,galago,0
 galagoides_demidoff,3.38,Om,19,2.25,solitary,spatial polygyny,NA,62.23555555555553,strepsirrhini,lorisiformes,galagoides,NA,NA,NA,0,galagoides,0
 galagoides_zanzibaricus,3.6411851700000004,Om,NA,3.5,solitary,spatial polygyny,NA,147.35,strepsirrhini,lorisiformes,galagoides,NA,NA,NA,0,galagoides,0
-gorilla_beringei,508.9591388,Fol,NA,13,polygyny,harem polygyny,yes,136212.595,haplorrhini,simmiformes,homininae,NA,NA,NA,1,gorilla,0
-gorilla_gorilla_gorilla,452.86693333333335,Fol,67,9.613793103448275,polygyny,harem polygyny,yes,121326.99666666666,haplorrhini,simmiformes,homininae,NA,NA,NA,1,gorilla,0
+gorilla_beringei,508.9591388,Fol,NA,13,polygyny,harem polygyny,yes,136212.595,haplorrhini,simmiformes,hominidae,NA,NA,NA,1,gorilla,0
+gorilla_gorilla_gorilla,452.86693333333335,Fol,67,9.613793103448275,polygyny,harem polygyny,yes,121326.99666666666,haplorrhini,simmiformes,hominidae,NA,NA,NA,1,gorilla,0
 hapalemur_aureus,NA,NA,NA,3,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,hapalemur,0
 hapalemur_griseus,14.6002444,Fol,NA,3.8666666666666667,pair,monogamy,NA,1021.3333333333334,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,hapalemur,0
 hapalemur_simus,NA,NA,NA,8,NA,NA,NA,NA,strepsirrhini,lemuriformes,lemuridae,NA,NA,NA,0,hapalemur,0
-homo_sapiens,1274.88104,NA,NA,NA,NA,NA,yes,NA,haplorrhini,simmiformes,homininae,NA,NA,NA,1,homo,1
+homo_sapiens,1274.88104,NA,NA,NA,NA,NA,yes,NA,haplorrhini,simmiformes,hominidae,NA,NA,NA,1,homo,1
 hoolock_hoolock,114.6648499539898,Frug,67,3.4,pair,monogamy,NA,6787,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hoolock,0
 hoolock_leuconedys,NA,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,hylobatidae,aves,NA,NA,0,hoolock,1
 hylobates_agilis,88.88388461538462,Frug/Fol,61,4.220000000000001,pair,monogamy,NA,5251.36,haplorrhini,simmiformes,hylobatidae,NA,NA,NA,0,hylobates,0
@@ -157,8 +157,8 @@ perodicticus_potto,12.265623955039905,Om,65,1.25,solitary,spatial polygyny,NA,11
 piliocolobus_badius,71.69041422662931,Fol,11,28.721739130434784,polygynandry,polygynandry,NA,8105,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,piliocolobus,0
 pithecia_monachus,35,NA,NA,NA,NA,NA,NA,NA,haplorrhini,simmiformes,pitheciidae,NA,NA,NA,0,pithecia,0
 pithecia_pithecia,31.675988616549592,Frug,31.4,2.6500000000000004,polygynandry,polygynandry,NA,1573.595,haplorrhini,simmiformes,pitheciidae,NA,NA,NA,0,pithecia,0
-pongo_abelii,409.5198447714377,Frug,NA,2,solitary,spatial polygyny,yes,48223.06,haplorrhini,simmiformes,pongidae,mammalia,primates,Lorisidae,1,pongo,1
-pongo_pygmaeus,343.971028595804,Frug,64,1.6,solitary,spatial polygyny,yes,55279.145000000004,haplorrhini,simmiformes,pongidae,"teleostei, mammalia","siluriformes, anabantiformes, rodentia","Siluridae, Channidae, Sciuridae, Muridae",1,pongo,1
+pongo_abelii,409.5198447714377,Frug,NA,2,solitary,spatial polygyny,yes,48223.06,haplorrhini,simmiformes,hominidae,mammalia,primates,Lorisidae,1,pongo,1
+pongo_pygmaeus,343.971028595804,Frug,64,1.6,solitary,spatial polygyny,yes,55279.145000000004,haplorrhini,simmiformes,hominidae,"teleostei, mammalia","siluriformes, anabantiformes, rodentia","Siluridae, Channidae, Sciuridae, Muridae",1,pongo,1
 presbytis_comata,61.124,Fol,NA,7,polygyny,harem polygyny,NA,6460,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,presbytis,0
 presbytis_melalophos,66.90504328910599,Fol,24,12.766666666666667,polygynandry,harem polygyny,NA,5326.373333333333,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,presbytis,0
 presbytis_potenziani,NA,NA,NA,4,NA,NA,NA,NA,haplorrhini,simmiformes,cercopithecidae,NA,NA,NA,0,presbytis,0
