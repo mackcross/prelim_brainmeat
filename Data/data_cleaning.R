@@ -63,7 +63,7 @@ meat_df$species <- ifelse(meat_df$species == "erthyrocebus_patas", "erythrocebus
 meat_df$species <- ifelse(meat_df$species == "eulemur_fulvus", "eulemur_fulvus_fulvus", meat_df$species)
 #fixed spelling errors
 levels(meat_df$prey)[levels(meat_df$prey) == "amhibia"] <- "amphibia"
-# collapsede reptilia under squamata 
+# collapsed reptilia under squamata 
 levels(meat_df$prey)[levels(meat_df$prey) == "reptiles"] <- "squamata"
 levels(meat_df$prey)[levels(meat_df$prey) == "reptilia"] <- "squamata"
 #pisces isn't currently used--moving this to same level as teleostei

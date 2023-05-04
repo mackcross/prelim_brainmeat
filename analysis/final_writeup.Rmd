@@ -1,0 +1,299 @@
+---
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+rm(list=ls())
+# necessary libraries 
+library(tidyverse)
+library(ggplot2)
+library(kableExtra)
+library(readr)
+library(dplyr)
+library(ggpubr)
+library(broom)
+library(AICcmodavg)
+library(plotly)
+
+# necessary dataframes
+all_df <- read_csv("~/Documents/research/tools_diet_brain/data/cleaned_df.csv")
+meat_df <- read_csv("~/Documents/research/tools_diet_brain/data/meat_df.csv")
+```
+
+# INTRODUCTION
+The order Primates contains an incredible array of diversity in terms of types of phenotypic appearance, diet, behavioral repertoire, ecological niche, etc. There has been a significant body of research which explores how these variables may drive brain expansion in specific primate lineages. This paper expands the discussion of these variables to include tool use. Tool use is a behavior that is typically only observed in primates with relatively large encephalization quotients such as humans, as well as other apes and some monkeys such as capuchins and macaques. There has been less research in the types of variables associated with primate participation in tool use behaviors yet tool use likely played a pivotal role in human evolution. For instance, tools enable more efficient nutrient extraction as tools can aid primates in extracting nutrients from hard exterior food sources such as nuts and some animal species like turtles and shellfish. Indeed, tooling primates often use tools for food processing, such as Capuchins who semi-regularly use stone tools to crack nuts (Izar, 2022). This project serves as an initial exploration into the interactions between tool use, proteinogenic diet, and other variables thought to have importance in primates, such as social groupings, body weight and brain size.  
+
+# DATA ACQUISITION 
+Data on primate fruit consumption, brain size, body size, and social groupings was obtained in the supplemental materials of Decasien et al.'s publication exploring fruit as a driver of brain size increase (DeCasien et al., 2022). Meat consumption data was gathered from Watt's review of meat eating behaviors across primates (Watt, 2020). A peer-reviewed publication which reviewed tool use behaviors in primates with a semi-comprehensive list of tool-using species could not be found. However, Wikipedia (https://en.wikipedia.org/wiki/Tool_use_by_non-human_animals) provided a table that contained data on tool-using species as well as the publication that reported the tool-use behavior. I reviewed the table and randomly sampled multiple entries to confirm that they were peer-reviewed. Given that this project serves only as an initial exploration into the data, I determined that it would be appropriate to scrape the primate tool-use data from Wikipedia. 
+
+# METHODS IN R
+I downloaded the DeCasien et al. data set from the supplemental materials and directly imported the file into R to be cleaned. In the Watt's review of meat eating behaviors, there was not a downloadable file. As a result, the table was manually copied into a .csv file prior to being imported into R. To streamline data collection, I used the rvest library in R to scrape the Wikipedia table and stored the data as a dataframe. I cleaned the column data by removing spaces and standardizing the case within the column names, and also created new columns based on existing data. I used for-loops to fill in null values when appropriate (for example, if two rows contained the same value in the "family" column but one of them had a null value in the "infraorder" column then the value in the non-null row would be copied into the null value row). I merged all imported dataframes together except for the meat-eating dataframe, as the others had a unique species for each row while the meat-eating dataframe had multiple rows of the same species and I did not want to lose the data specificity from collapsing the other variable values into an mean. These dataframes were saved as two separate .csv files and both imported into this .Rmd file. The following analysis contains summary statistics of this data as well as visualizations to explore the possible connections between these variables among primates. 
+
+# ANALYSIS 
+## CARNIVORY ACROSS PRIMATES 
+The review from Watts included a table of primates that participate in meat eating behaviors and the types of prey these primates have been observed eating. Watts provided a detailed analysis at the species level of meat intake, but the larger scale divisions among primate infraorders and families were less explored. The following summary table compares monkeys, apes and tarsiers (haplorhines) against lemurs and loirses (strepsirhines) in terms of the types of prey consumed and the number of times these primates have been observed eating that prey type according to Watts review. 
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+summary_infra_prey <- meat_df %>%
+  group_by(prey, infraorder) %>%
+  summarize(prey_frequency = n()) %>%
+  pivot_wider(names_from = infraorder, values_from = prey_frequency, values_fill = 0)
+
+kable(summary_infra_prey, caption = "Summary of Prey Frequency by Infraorder") %>%
+  kable_styling(bootstrap_options = "striped") 
+```
+
+It is obvious from this table that haplorhines participate in meat eating behaviors at a much greater frequency than strepsirhines. Compared against strepsirhines, haplorhines have `r round(147/13)`x more observations of eating aves, `r round(65/10)`x more observations of eating squamata, `r round(47/3)`x more observations of eating amphibia, and `r round(156/4)`x more observations of eating mammalia. This does not include the vertebrata category as the specific prey type is unknown. Notably, there have not been observations of strepshirrhines eating fish and this appears to be a prey type unique to haplorrhine species. When looking at this data at the family level, it is clear that the higher frequency of carnivorous behaviors in haplorhines is largely due to hominidae, cercopithecididae, cebidae and callitrichidae. The dominance these families' prey consumption can be observed in the below chart: 
+```{r, echo=FALSE, warning=FALSE}
+prey_order <- c("amphibia", "squamata", "vertebrata", "aves", "mammalia", "teleostei")
+meat_df$prey <- factor(meat_df$prey, levels = prey_order)
+
+family_order <- c("hominidae", "pongidae", "hylobatidae", "cercopithecidae", "atelidae", "pitheciidae", "cebidae", "callitrichidae", "tarsidae", "lemuridae", "lorisidae")
+meat_df$family <- factor(meat_df$family, levels = family_order)
+
+my_colors <- c("amphibia" = "#ffffcc", "squamata" = "#c7e9b4", "vertebrata" = "#7fcdbb", "aves" = "#41b6c4", "mammalia" = "#2c7fb8", "teleostei" = "#253494")
+
+p <- ggplot(data = meat_df, aes(x=family, fill=prey)) +
+  geom_bar() +
+  theme(panel.background = element_rect(fill = "white", colour = NA),
+        panel.grid.major = element_line(size =0.2, colour = "lightgrey"), 
+        panel.grid.minor = element_blank(), 
+        panel.border = element_blank(),
+        legend.title = element_text(size = 9), 
+        panel.grid.major.x = element_blank(),
+        axis.title.x = element_blank(), 
+        axis.text.x = element_text(angle = 30)) + 
+  scale_fill_manual(values = my_colors, name = "Prey Type") +
+  scale_y_continuous(breaks = seq(0, 120, 20), name = "Observations") + 
+  ggtitle("Prey Type Diversity in Primate Families") + 
+  theme(plot.title = element_text(face="bold", hjust=0.75, size = 16))
+p
+```
+
+Interestingly, both hominidae and cercopithecidae appear to eat mammalia prey at much higher frequencies than cebidae or callitrichidae. Hominidae has the most observations of mammalia prey consumption compared to all other primate families. Cercopithecidae, cebidae and callitrichidae consume both squamata and amphibia as a sizable portion of their overall meat intake, however, consumption of these prey groups is rare in hominindae. 
+
+## TOOL USE ACROSS PRIMATES
+There are not any known tool-using strepsirrhine primates. Among haplorhines, there are `r sum(all_df$use_tools == 1)` species who have been observed using tools. Unfortunately, there is not data readily available on the frequency of this tool use, therefore, these analyses are limited by a strict binary of known tooling primates versus non-tooling primates. Tool use does not occur evenly across haplorhine primate families, but rather sporadically in only several primate families which are not always closely related. Of the 158 primate species represented within this dataset, the below graph shows the number of species by family who are known toolers (denoted as 1) versus non-toolers (denoted as 0):
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+haplorrhine_df <- subset(all_df, infraorder == "haplorrhini")
+
+summary_tool <- haplorrhine_df %>%
+  group_by(family, use_tools) %>%
+  summarize(users = n()) %>%
+  pivot_wider(names_from = use_tools, values_from = users, values_fill = 0)
+
+kable(summary_tool, caption = "Tool Use Across Haplorhines") %>%
+  kable_styling(bootstrap_options = "striped", full_width = TRUE)
+
+```
+
+All species within hominidae (H. sapiens, P. troglodytes, P. paniscus, G. gorilla, G. beringei, P. abeli and P. pygmaeous) are observed tool users, although there is a known variability in frequency of tool use which is not evaluated within this exploration. Notably, hylobatidae does not have known tool users despite being the group most closely related to hominidae. Cercopithecidae has the highest number of tooling species out of all represented primate families, although the majority of species within this group are not known to use tools. Outside of hominidae and cercopithecidae, only cebidae and atelidae primates have been observed using tools. 
+
+## AN EXPLORATION OF TOOLING & PROTEINS IN PRIMATES
+Research supports ties between diet and brain size, such as DeCasien's work linking increased fruit consumption to relatively larger brains across primates (DeCasien, 2017). Additionally, tool use is typically only employed by relatively larger brained primates, as demonstrated in the discussions of tool use across primates above. Given the support for both of these ideas, it is likely that there would also be associations between diet and tool use. Tool use is a complex behavior observed sporadically across only several primate groups and, when it is observed in a primate species, it is frequently for the purpose of nutrient extraction, although this depends on the primate species. This prompts the question: are the diets of tooling species different from non-tooling primate species? The below chart divides primates into tooling species and non-tooling species. Each primate species represents one count on the y-axis and the bars of this chart are colored by the type of dietary range in meat-eating for each of these primates. 
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+p <- ggplot(data = all_df[complete.cases(all_df$prey),], aes(x=use_tools, fill=prey)) + 
+  geom_bar() +
+  theme(panel.background = element_rect(fill = "white", colour = NA),
+        panel.grid.major = element_line(size =0.2, colour = "lightgrey"), 
+        panel.grid.minor = element_blank(), 
+        panel.border = element_blank(),
+        legend.title = element_text(size = 9), 
+        panel.grid.major.x = element_blank(),
+        axis.title.x = element_blank()) + 
+  labs(x = "Use of Tools", fill = "Prey") +
+  scale_x_discrete(labels=c("Non-Tooling Species", "Tooling Species")) +
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank())
+p
+
+```
+
+Although the effectiveness of this visualization is limited due to the large number of categories it depicts, it does showcase a couple interesting features. Firstly, the bottom, pink-colored region which represents the inclusion of fish in the primate diet is expanded in tooling species as opposed to non-tooling species. Secondly, primates whose observed meat consumption is exclusively birds as shown by the middle green category compose a sizable portion of the non-tooling species' meat intake but, in tooling species, this category has one of the smallest number of occurrences. According to this data, there are only`r sum(all_df$use_tools == 1)` tool-using primates while there are `r sum(all_df$meat_eater == 1)` primate species known to eat meat, yet the tool-using primates make up almost half of the instances of meat eating behaviors. 
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, include=FALSE}
+all_df$use_tools <- factor(all_df$use_tools)
+all_df$meat_eater <- factor(all_df$meat_eater)
+
+###############################################################################
+# Welch: Mean Brain & Meat Eating
+# Subset data for tool users and non-tool users
+meat_eater <- all_df$mean_brain[all_df$meat_eater == 1]
+non_meat_eater <- all_df$mean_brain[all_df$meat_eater == 0]
+
+var.test(meat_eater, non_meat_eater)
+
+# Perform t-test
+t.test(meat_eater, non_meat_eater, var.equal = FALSE)
+
+###############################################################################
+# Welch: Mean Brain & Tool Use
+# Subset data for tool users and non-tool users
+tool_users <- all_df$mean_brain[all_df$use_tools == 1]
+non_tool_users <- all_df$mean_brain[all_df$use_tools == 0]
+
+var.test(tool_users, non_tool_users)
+
+# Perform t-test
+t.test(tool_users, non_tool_users, var.equal = FALSE)
+
+
+###############################################################################
+# Creating scaled columns 
+all_df$scaled_brain_body_size <- all_df$mean_brain + 0.0646 * all_df$body_weight
+
+###############################################################################
+# Welch: Scaled Brain & Tool Use
+# Subset data for tool users and non-tool users
+tool_users <- all_df$scaled_brain_body_size[all_df$use_tools == 1]
+non_tool_users <- all_df$scaled_brain_body_size[all_df$use_tools == 0]
+
+var.test(tool_users, non_tool_users)
+
+# Perform t-test
+t.test(tool_users, non_tool_users, var.equal = FALSE)
+
+###############################################################################
+# Welch: Scaled Brain & Meat Eating
+# Subset data for tool users and non-tool users
+meat_eater <- all_df$scaled_brain_body_size[all_df$meat_eater == 1]
+non_meat_eater <- all_df$scaled_brain_body_size[all_df$meat_eater == 0]
+
+var.test(meat_eater, non_meat_eater)
+
+# Perform t-test
+t.test(meat_eater, non_meat_eater, var.equal = FALSE)
+
+```
+
+In order to explore both tool use and meat eating behavior in the context of primate brain evolution, I ran a Welch Two Sample T-test on some of the variables of interest.There was not a difference in average primate brain size when comparing meat eaters versus non-meat eaters (p-value = 0.2499), although there was a difference when comparing tool users versus non-tool users (p-value = 0.001626). As brain size is negatively allometric to body size in primates, I created a new column called scaled_brain_body_size which was based on research suggesting a regression line with a slope of 0.0646 best described the brain-body relationship across primates (Isler, 2008). These results held when evaluating the difference in scaled brain size in meat eaters versus non-meat eaters (p-value = 0.9216), as well as scaled brain size in tool users versus non-tool users (p-value = 0.003476). 
+
+Finally, to explore the relationship between scaled brain size, observed meat eating behavior, observed tool use and the added variable of primate group size, a scatterplot was created: 
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+p <- ggplot(all_df, aes(x=scaled_brain_body_size, y=mean_groupsize, size=meat_eater, color=use_tools, text=species)) +
+  geom_point(alpha=0.5) +
+  scale_size_manual(values = c(.5, 3), name="Carnivory", labels = c("Non-Meat Eater", "Meat Eater")) +
+  scale_color_manual(values = c("#af8dc3", "#7fbf7b"), name = "Tooling", labels = c("Non-Tool User", "Tool User")) +
+  theme(panel.background = element_rect(fill = "white", colour = NA), 
+        panel.grid.major = element_line(size =0.2, colour = "lightgrey")) +
+  scale_x_continuous(trans='log10', name = "Scaled Brain Size") +
+  scale_y_continuous(name = "Group Size") +
+  ggtitle("Overview of Primate Drivers") + 
+  theme(plot.title = element_text(face="bold", size = 16))
+
+ggplotly(p, tooltip=c("text", "size", "color")) %>%
+  layout(showlegend = FALSE)
+```
+Scaled brain size represents the x-axis, while average primate group size represents the y-axis. In this plot, the difference in circle size reflects if the primate is known to eat meat (large circle) or is not known to eat meat (small circle), while the color indicates if the primate is a tooling species (green) or a non-tooling species (purple). There is an obvious association with scaled brain size and tool use. Interestingly, almost all tooling species, as represented by the color green, have large circles which indicates meat eating behavior with the exception of two small green dots which represent Gorilla species.
+
+# DISCUSSION
+This work is only an initial exploration into this topic, although I am interested in expanding the dataset in terms of representation of primate species as well as including more high quality data. For example, it would be more informative to have frequency data, rather than dividing primates into binaries which cannot capture variation in behaviors. The largest barrier to this work is, while there is a large amount of research within this field on tool use behaviors and diet composition, it has not been synthesized into a larger dataset across primates. Instead, this information usually exists in publications focusing on a specific species and, as a result, someone would need to manually go through numerous publications to extract individual species information and do this hundreds of times over to create a comprehensive dataset. I am interested in pursuing a project which uses web scraping techniques to help automate this process and use existing primatology research to create novel, comprehensive datasets in order to evaluate more macroevolutionary trends and I intend to work towards this goal this summer. 
+
+
+# REFERENCES 
+DeCasien, A. R., Williams, S. A., & Higham, J. P. (2017). Primate brain size is predicted by diet but not sociality. Nature ecology & evolution, 1(5), 0112.
+
+Isler, K., Kirk, E. C., Miller, J. M., Albrecht, G. A., Gelvin, B. R., & Martin, R. D. (2008). Endocranial volumes of primate species: scaling analyses using a comprehensive and reliable data set. Journal of Human Evolution, 55(6), 967-978.
+
+Izar, P., Peternelli-dos-Santos, L., Rothman, J. M., Raubenheimer, D., Presotto, A., Gort, G., ... & Fragaszy, D. M. (2022). Stone tools improve diet quality in wild monkeys. Current Biology, 32(18), 4088-4092.
+
+Watts, D. P. (2020). Meat eating by nonhuman primates: a review and synthesis. Journal of human evolution, 149, 102882.
+
+
+# APPENDIX 
+**I. Table of Variables in Dataframe1**
+This table contains the variable names and their associated definitions for all columns within the first dataframe. 
+```{r definition-chart, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+
+# Define your data as a data frame with two columns, "Term" and "Definition"
+definitions <- data.frame(
+  Term = c("species", "mean_brain", "diet_category", "per_fruit", "mean_groupsize", "social_system", "mating_system", "tool_type", "body_weight", "infraorder", "superfamily", "family", "prey", "prey_order", "prey_family", "use_tools", "genus", "meat_eater", "scaled_brain_body_size"),
+  Definition = c("The taxonomic name of the primate",
+                 "The primate's average brain size",
+                 "The type of diet in terms of frugivory, folivory and omnivory", 
+                 "The percent of fruit intake relative to other dietary elements", 
+                 "The average groupsize of the primate", 
+                 "The type of social system used by primate", 
+                 "The type of mating system used by primate", 
+                 "Provides info about the type of tool use by tooling primates", 
+                 "The average body weight of the primate", 
+                 "The taxonomic infraorder of the primate", 
+                 "The taxonomic superfamily of the primate", 
+                 "The taxonomic family of the primate", 
+                 "The taxonomic group of primate prey", 
+                 "The taxonomic order of primate prey", 
+                 "The taxonomic family of primate prey", 
+                 "Binary of observed tool use in primate. 0=no tool use; 1=tool use", 
+                 "The taonomic genus of the primate", 
+                 "Binary of observed meat eating in primates. 0=no meat-eating; 1=meat-eating", 
+                 "Brain size scaled to body size based on regression line thought to best represent the relationship between brain and body size in primates")
+)
+
+# Create the table with kable
+kable(definitions, format = "html", 
+      col.names = c("Term", "Definition"), 
+      caption = "Glossary of Terms")
+
+# print(definitions)
+```
+
+
+**II. Summary of Variables in Dataframe1**
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+all_df %>%
+  summarize(col_num = ncol(meat_df), 
+            row_num = nrow(meat_df), 
+            na = sum(as.numeric(is.na(meat_df))), 
+            mean_per_fruit = mean(per_fruit, na.rm = TRUE), 
+            total_mean_groupsize = mean(mean_groupsize, na.rm = TRUE), 
+            total_mean_brain = mean(mean_brain, na.rm = TRUE), 
+            mean_body_weight = mean(body_weight, na.rm = TRUE))
+```
+
+**III. Table of Variables in Dataframe2**
+This table contains the variable names and their associated definitions for all columns within the second dataframe which contained the specific detail on diversity of prey type in meat eating primates. 
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+
+# Define your data as a data frame with two columns, "Term" and "Definition"
+definitions2 <- data.frame(
+  Term = c("species", "infraorder", "superfamily", "family", "prey", "prey_order", "prey_family", "parvorder"),
+  Definition = c("The taxonomic name of the primate",
+                 "The taxonomic infraorder of the primate", 
+                 "The taxonomic superfamily of the primate", 
+                 "The taxonomic family of the primate", 
+                 "The taxonomic group of primate prey", 
+                 "The taxonomic order of primate prey", 
+                 "The taxonomic family of primate prey", 
+                 "The taxonomic parvorder of the primate")
+)
+
+# Create the table with kable
+kable(definitions2, format = "html", 
+      col.names = c("Term", "Definition"), 
+      caption = "Glossary of Terms")
+
+# print(definitions)
+```
+
+
+**IV. Summary of Variables in Dataframe2**
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+meat_df %>%
+  summarize(col_num = ncol(meat_df), 
+            row_num = nrow(meat_df), 
+            na = sum(as.numeric(is.na(meat_df))))
+
+```
+
+
+
